@@ -67,7 +67,7 @@ function generateLayerButtons(location) {
   for (const [category, url] of Object.entries(categories)) {
     const button = document.createElement("button");
     button.textContent = categoryNames[category] || category;
-    button.classList.add("btn", "btn-primary", "btn-layer");
+    button.classList.add("btn", "option");
     button.dataset.mapUrl = url;
     layerButtonsContainer.appendChild(button);
 
