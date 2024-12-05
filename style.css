@@ -45,3 +45,38 @@ body {
     margin-bottom: 10px;
   }
   
+  @media (max-width: 576px) {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 20px 15px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    .card {
+        margin-bottom: 15px;
+        box-shadow: none;
+    }
+
+    .option {
+        margin: 8px 0;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    #map {
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
