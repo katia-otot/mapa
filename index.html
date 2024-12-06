@@ -41,11 +41,14 @@
 
         .option {
             width: 100%;
-            margin: 10px 0;
-            padding: 12px;
+            max-width: 300px; /* Limita el ancho máximo del botón para pantallas más grandes */
+            margin: 10px auto;
+            padding: 16px;
             background-color: var(--primary-color);
             border: none;
             border-radius: 8px;
+            font-size: 1rem; /* Aumenta el tamaño del texto */
+            text-align: center;
             transition: all 0.3s ease;
             color: white;
         }
@@ -71,7 +74,14 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        
+        /* Optimización para dispositivos móviles */
+@media (max-width: 768px) {
+    .option {
+        max-width: 100%; /* Se asegura que ocupe todo el ancho en pantallas pequeñas */
+        font-size: 1.2rem; /* Texto más grande en móviles */
+        padding: 18px; /* Más altura para botones en pantallas táctiles */
+    }
+}
   </style>
 </head>
 <body>
