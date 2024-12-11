@@ -15,9 +15,11 @@ const mapUrls = {
     lugadesDeSecuestro :"https://www.google.com/maps/d/u/0/embed?mid=1PLk7uTHBO3P5_HQHc_ECO15Cplw1cdE&ehbc=2E312F&noprof=1",
   },
   necochea: {
-    murales: "https://www.google.com/maps/d/u/0/embed?mid=1dxXO7fuLJ_PaViZ44AKumKmAnBYSV4w",
-    escuelas: "https://www.google.com/maps/d/u/0/embed?mid=3exampleNECO",
-    abuelas: "https://www.google.com/maps/d/u/0/embed?mid=3anotherNECO",
+    murales: "https://www.google.com/maps/d/u/0/embed?mid=1250ovuPZKnEtUXbVBsk2IaaA07t3sSQ&ehbc=2E312F&noprof=1",
+    escuelas: "https://www.google.com/maps/d/u/0/embed?mid=1qyOwHvUKlBjJGpPqULsFXaz-Bq4hNZw&ehbc=2E312F&noprof=1",
+    abuelas: "https://www.google.com/maps/d/u/0/embed?mid=1HnN0-oD8ltFQOX0xFc1bOQFRkFRDrs4&ehbc=2E312F&noprof=1",
+    exCentroclandestinodeDetención: "https://www.google.com/maps/d/u/0/embed?mid=1UxJ3xAKtIxaoSGVoLs6IP1D7ze4fT4s&ehbc=2E312F&noprof=1",
+    lugadesDeSecuestro: "https://www.google.com/maps/d/u/0/embed?mid=1Ps_fZ641AJdXe_NxGorjAMyyuUSscUE&ehbc=2E312F&noprof=1",
   },
 };
 // Nombres amigables para las categorías
