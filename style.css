@@ -1,72 +1,141 @@
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
+/* Responsive and Mobile-First CSS */
+:root {
+  --primary-color: #6b3fa0;
+  --secondary-color: #4a2d7c;
+  --background-color: #f4f6f9;
+  --text-color: #ffffff;
+}
+
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 18px; /* Aumenta el tamaño base de fuente */
-  line-height: 1.6; /* Mejora la legibilidad */
 }
+
+html {
+  font-size: 16px; /* Base font size for responsive scaling */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 0 15px; /* Small horizontal padding on mobile */
+}
+
 .container-xl {
-  padding: 20px; /* Añade más padding */
-}
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-.title {
-  text-align: center;
-  color: #6b3fa0;
-  font-size: 2rem; /* Título más grande */
-  margin-bottom: 40px;
-}
-.card {
-  width: 95%; /* Casi todo el ancho de la pantalla */
-  margin: 0 auto 30px;
-  padding: 20px;
-}
-.option {
-  max-width: 100%; /* Botones de ancho completo */
-  padding: 20px; /* Botones más grandes */
-  font-size: 1.2rem; /* Texto más grande */
-  margin: 15px 0; /* Más espacio entre botones */
-}
-#map {
-  height: 800px; /* Mapa más alto */
   width: 100%;
-  border-radius: 15px;
-}
-.map-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 0 auto;
+  padding: 15px;
 }
 
-.map-image {
-  flex: 1;
-  background-image: url('mapa.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
+/* Responsive Typography */
+.title {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
 }
 
-.map-legend {
-  flex: 1;
-  padding-left: 20px;
+.card {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-.map-legend ul {
-  list-style-type: none;
-  padding: 0;
+.card-title {
+  font-size: clamp(1.3rem, 4vw, 2rem);
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
 }
 
-.map-legend li {
-  margin-bottom: 10px;
+.option {
+  width: 100%;
+  padding: clamp(15px, 4vw, 20px)!important;
+  margin: 0.5rem 0!important;
+  font-size: clamp(1rem, 4vw, 1.2rem)!important;
+  background-color: var(--primary-color) !important;
+  text-align: center!important;
+  color: white!important;
+  border: none!important;
+  border-radius: 8px!important;
+  transition: all 0.3s ease!important;
 }
-  
 
+.option:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: white;
+}
+.hidden {
+  display: none!important;
+}
+/* Responsive Map */
+#map {
+  width: 100%;
+  height: clamp(300px, 70vh, 800px);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 
-.qqvbed-p83tee {
-  font-size: 20px;}
+/* Back Button */
+#back-button {
+  display: block;
+  width: 100%;
+  padding: clamp(12px, 4vw, 20px);
+  margin-top: 1rem;
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Media Queries for Fine-Tuning */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container-xl {
+    padding: 30px;
+  }
+
+  .option, #back-button {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container-xl {
+    padding: 50px;
+  }
+}
+
+/* Improved Google Maps Styles */
+.gm-style .gm-style-iw {
+  font-size: clamp(14px, 3vw, 16px) !important;
+  max-width: 250px !important;
+}
+
+.gm-style .gm-title {
+  font-size: clamp(16px, 4vw, 18px) !important;
+  font-weight: bold;
+}
+
+/* Utility Classes */
+.hidden {
+  display: none;
+}
