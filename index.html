@@ -2,34 +2,35 @@
 <html>
 <head>
   <title>Mapa Local por la Memoria</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  <div class="container-xl d-flex flex-column align-items-center my-5">
-    <h1 class="title">MAPA LOCAL POR LA MEMORIA</h1>
+<body class="bg-light">
+  <div class="container-xl py-4 d-flex flex-column align-items-center">
+    <h1 class="text-center mb-4 custom-title">MAPA LOCAL POR LA MEMORIA</h1>
 
     <!-- Selección inicial: Ubicación -->
-    <div id="location-selection" class="card w-100 mb-4">
-      <div class="card-body">
-        <h2 class="card-title">¿De dónde venís?</h2>
+    <div id="location-selection" class="ard w-100 mb-4 shadow-sm">
+      <div class="card-body text-center">
+        <h2 class="card-title custom-card-title">¿De dónde venís?</h2>
         <div class="d-flex flex-column align-items-center">
-          <button class="btn btn-primary my-2 option" data-location="quequen">Quequén</button>
-          <button class="btn btn-primary my-2 option" data-location="terminal">Terminal de Omnibus</button>
-          <button class="btn btn-primary my-2 option" data-location="necochea">Necochea</button>
+          <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-location="quequen">Quequén</button>
+          <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-location="terminal">Terminal de Omnibus</button>
+          <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-location="necochea">Necochea</button>
         </div>
       </div>
     </div>
 
     <!-- Selección de capas -->
-    <div id="layer-selection" class="card w-100 mb-4 hidden">
-      <div class="card-body">
-        <h2 class="card-title">¿Qué deseas explorar?</h2>
+    <div id="layer-selection" class="card w-100 mb-4 d-none">
+      <div class="card-body text-center">
+        <h2 class="card-title custom-card-title">¿Qué deseas explorar?</h2>
         <div id="layer-buttons" class="d-flex flex-column align-items-center">
           <!-- Botones de capas se generan dinámicamente -->
         </div>
         <div class="d-flex justify-content-center mt-3">
-          <button id="back-button" class="btn btn-secondary">Volver</button>
+          <button id="back-button" class="btn btn-secondary w-100 w-md-50">Volver</button>
         </div>
       </div>
     </div>
@@ -38,13 +39,15 @@
     <iframe 
       id="map" 
       src="" 
-      width="100%" 
       height="400" 
       frameborder="0" 
-      class="hidden">
+      class="w-100 d-none">
     </iframe>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="map-interactions.js"></script>
 </body>
 </html>

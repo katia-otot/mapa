@@ -6,144 +6,50 @@
   --text-color: #ffffff;
 }
 
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 16px; /* Base font size for responsive scaling */
-}
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
-  padding: 0 15px; /* Small horizontal padding on mobile */
 }
 
-.container-xl {
-  width: 100%;
-  max-width: 1200px; /* Maximum width for larger screens */
-  margin: 0 auto;
-  padding: 15px;
-}
-
-/* Responsive Typography */
-.title {
+.custom-title {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
-  text-align: center;
   color: var(--primary-color);
-  margin-bottom: 1.5rem;
 }
 
-.card {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
-
-.card-title {
+.custom-card-title {
   font-size: clamp(1.3rem, 4vw, 2rem);
-  text-align: center;
   color: var(--secondary-color);
-  margin-bottom: 1rem;
 }
 
-.option {
-  width: 100%;
-  padding: clamp(20px, 6vw, 30px)!important;
-  margin: 0.5rem 0!important;
-  font-size: clamp(1.2rem, 5vw, 1.5rem)!important;
+.custom-option {
   background-color: var(--primary-color) !important;
-  text-align: center!important;
-  color: white!important;
-  border: none!important;
-  border-radius: 8px!important;
-  transition: all 0.3s ease!important;
+  transition: all 0.3s ease;
 }
 
-@media screen and (min-width: 768px) {
-  .option {
-    padding: 15px 20px !important; /* Reduced padding for desktop */
-    font-size: 1.2rem !important; /* Fixed font size for desktop */
-  }
-}
-.option:hover {
-  background-color: var(--secondary-color);
+.custom-option:hover {
+  background-color: var(--secondary-color) !important;
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  color: white;
 }
-.hidden {
-  display: none!important;
-}
-/* Responsive Map */
+
 #map {
-  width: 100%;
-  height: clamp(300px, 70vh, 800px);
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Back Button */
-#back-button {
-  display: block;
-  width: 100%;
-  padding: clamp(16px, 5vw, 24px);
-  margin-top: 1rem;
-  font-size: clamp(1.2rem, 5vw, 1.5rem);
-  background-color: #6c757d;
-  color: white;
-  border: none;
-  border-radius: 8px;
-}
-
-/* Media Queries for Fine-Tuning */
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-
-  .container-xl {
-    padding: 30px;
-  }
-
-  .option, #back-button {
-    padding: 15px 20px; /* Reduced padding for desktop */
-    font-size: 1.2rem; /* Fixed font size for desktop */
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+@media (min-width: 768px) {
+  #map {
+    height: 600px !important; /* Altura más grande para tablets y escritorio */
   }
 }
 
-@media screen and (min-width: 1024px) {
-  body {
-    font-size: 20px;
-  }
-
-  .container-xl {
-    padding: 50px;
+@media (min-width: 1024px) {
+  #map {
+    height: 800px!important; /* Aún más grande para pantallas de escritorio */
+    max-width: 1200px!important; /* Establece un ancho máximo */
+    margin: 0 auto!important; /* Centra el mapa */
   }
 }
 
-/* Improved Google Maps Styles */
-.gm-style .gm-style-iw {
-  font-size: clamp(14px, 3vw, 16px) !important;
-  max-width: 250px !important;
-}
-
-.gm-style .gm-title {
-  font-size: clamp(16px, 4vw, 18px) !important;
-  font-weight: bold;
-}
-
-/* Utility Classes */
-.hidden {
-  display: none !important;
-}

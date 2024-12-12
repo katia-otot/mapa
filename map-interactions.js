@@ -44,19 +44,19 @@ document.querySelectorAll(".option").forEach(button => {
 
     // Genera los botones de categorías
     generateLayerButtons(location);
-    locationSelection.classList.add("hidden");
-    layerSelection.classList.remove("hidden");
+    locationSelection.classList.add("d-none");
+    layerSelection.classList.remove("d-none");
   });
 });
 
 // Manejo del botón "Volver"
 backButton.addEventListener("click", () => {
   // Oculta la sección de capas y muestra la selección inicial
-  layerSelection.classList.add("hidden");
-  locationSelection.classList.remove("hidden");
+  layerSelection.classList.add("d-none");
+  locationSelection.classList.remove("d-none");
   // Limpia el iframe
   mapIframe.src = "";
-  mapIframe.classList.add("hidden");
+  mapIframe.classList.add("d-none");
 });
 
 // Generar botones de categorías dinámicamente
@@ -69,6 +69,16 @@ function generateLayerButtons(location) {
   for (const [category, url] of Object.entries(categories)) {
     const button = document.createElement("button");
     button.textContent = categoryNames[category] || category;
+    // Agrega clases de estilo similar a los botones de ubicación
+    button.classList.add(
+      "btn", 
+      "btn-primary", 
+      "w-100", 
+      "w-md-75", 
+      "my-2", 
+      "option", 
+      "custom-option"
+    );
     button.classList.add("btn", "option");
     button.dataset.mapUrl = url;
     layerButtonsContainer.appendChild(button);
@@ -83,5 +93,5 @@ function generateLayerButtons(location) {
 // Mostrar el mapa seleccionado en el iframe
 function showMap(url) {
   mapIframe.src = url;
-  mapIframe.classList.remove("hidden");
+  mapIframe.classList.remove("d-none");
 }
