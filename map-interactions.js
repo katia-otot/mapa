@@ -94,4 +94,6 @@ function generateLayerButtons(location) {
 function showMap(url) {
   mapIframe.src = url;
   mapIframe.classList.remove("d-none");
+  // Scroll to the map
+  mapIframe.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
