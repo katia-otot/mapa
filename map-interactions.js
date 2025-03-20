@@ -61,8 +61,14 @@ backButton.addEventListener("click", () => {
 
 // Generar botones de categorías dinámicamente
 function generateLayerButtons(location) {
-  // Limpia botones existentes
+  // Mantener el botón de representaciones sociales
+  const representacionesButton = layerButtonsContainer.querySelector('[data-layer="representaciones-sociales"]');
   layerButtonsContainer.innerHTML = "";
+  
+  // Restaurar el botón de representaciones sociales
+  if (representacionesButton) {
+    layerButtonsContainer.appendChild(representacionesButton);
+  }
 
   // Obtiene las categorías para la ubicación seleccionada
   const categories = mapUrls[location];
