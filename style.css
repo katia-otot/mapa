@@ -73,6 +73,13 @@ footer {
   margin-top: auto;
 }
 
+/* Ajuste del tamaño de fuente para móviles */
+@media (max-width: 767px) {
+  footer {
+    font-size: 0.75rem;
+  }
+}
+
 footer a {
   color: #6c757d;
   text-decoration: none;

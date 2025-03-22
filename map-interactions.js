@@ -37,16 +37,51 @@ const layerButtonsContainer = document.getElementById("layer-buttons");
 const mapIframe = document.getElementById("map");
 const backButton = document.getElementById("back-button");
 
+// Verificar si venimos de la página de representaciones sociales
+document.addEventListener('DOMContentLoaded', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('from') === 'layers') {
+    // Obtener la ubicación del localStorage
+    const lastLocation = localStorage.getItem('lastLocation');
+    if (lastLocation) {
+      // Marcar el botón de ubicación como activo
+      const locationButton = document.querySelector(`[data-location="${lastLocation}"]`);
+      if (locationButton) {
+        locationButton.classList.add('active');
+      }
+      generateLayerButtons(lastLocation);
+      locationSelection.classList.add("d-none");
+      layerSelection.classList.remove("d-none");
+    }
+  }
+});
+
 // Manejo de clic en las ubicaciones
 document.querySelectorAll(".option").forEach(button => {
-  button.addEventListener("click", () => {
-    const location = button.dataset.location;
-
-    // Genera los botones de categorías
-    generateLayerButtons(location);
-    locationSelection.classList.add("d-none");
-    layerSelection.classList.remove("d-none");
-  });
+  if (button.dataset.layer === "representaciones-sociales") {
+    button.addEventListener("click", () => {
+      // Guardar la ubicación actual antes de navegar
+      const activeLocationButton = document.querySelector('[data-location].active');
+      if (activeLocationButton) {
+        localStorage.setItem('lastLocation', activeLocationButton.dataset.location);
+      }
+      window.location.href = "representaciones-sociales.html";
+    });
+  } else if (button.dataset.location) {
+    button.addEventListener("click", () => {
+      // Remover clase active de todos los botones de ubicación
+      document.querySelectorAll('[data-location]').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      // Agregar clase active al botón seleccionado
+      button.classList.add('active');
+      
+      const location = button.dataset.location;
+      generateLayerButtons(location);
+      locationSelection.classList.add("d-none");
+      layerSelection.classList.remove("d-none");
+    });
+  }
 });
 
 // Manejo del botón "Volver"
