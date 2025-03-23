@@ -110,8 +110,8 @@ backButton.addEventListener("click", () => {
   // Limpia el iframe
   mapIframe.src = "";
   mapIframe.classList.add("d-none");
-  // Opcional: Si deseas que al volver se olvide la última ubicación
-  // localStorage.removeItem('lastLocation');
+  // Eliminar la ubicación guardada
+  localStorage.removeItem('lastLocation');
 });
 
 // Generar botones de categorías dinámicamente
