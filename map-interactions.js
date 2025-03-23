@@ -37,22 +37,40 @@ const layerButtonsContainer = document.getElementById("layer-buttons");
 const mapIframe = document.getElementById("map");
 const backButton = document.getElementById("back-button");
 
-// Verificar si venimos de la página de representaciones sociales
+// Asegurar que se muestre la pantalla correcta cuando se carga la página
 document.addEventListener('DOMContentLoaded', function() {
+  // Asegurarse de que el mapa esté oculto inicialmente
+  mapIframe.classList.add("d-none");
+  
+  // Obtener la ubicación guardada en localStorage
+  const lastLocation = localStorage.getItem('lastLocation');
+  
+  // Verificar si venimos de la página de representaciones sociales
   const urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.get('from') === 'layers') {
-    // Obtener la ubicación del localStorage
-    const lastLocation = localStorage.getItem('lastLocation');
-    if (lastLocation) {
-      // Marcar el botón de ubicación como activo
-      const locationButton = document.querySelector(`[data-location="${lastLocation}"]`);
-      if (locationButton) {
-        locationButton.classList.add('active');
-      }
-      generateLayerButtons(lastLocation);
-      locationSelection.classList.add("d-none");
-      layerSelection.classList.remove("d-none");
+  
+  if (urlParams.get('from') === 'layers' && lastLocation) {
+    // Si venimos de representaciones sociales y hay una ubicación guardada
+    const locationButton = document.querySelector(`[data-location="${lastLocation}"]`);
+    if (locationButton) {
+      locationButton.classList.add('active');
     }
+    generateLayerButtons(lastLocation);
+    locationSelection.classList.add("d-none");
+    layerSelection.classList.remove("d-none");
+  } else if (lastLocation) {
+    // Si hay una ubicación guardada pero no venimos de representaciones sociales
+    // Marcar el botón de ubicación como activo
+    const locationButton = document.querySelector(`[data-location="${lastLocation}"]`);
+    if (locationButton) {
+      locationButton.classList.add('active');
+    }
+    generateLayerButtons(lastLocation);
+    locationSelection.classList.remove("d-none");
+    layerSelection.classList.add("d-none");
+  } else {
+    // Si no hay ubicación guardada o es la primera vez, mostrar la selección de ubicación
+    locationSelection.classList.remove("d-none");
+    layerSelection.classList.add("d-none");
   }
 });
 
@@ -92,6 +110,8 @@ backButton.addEventListener("click", () => {
   // Limpia el iframe
   mapIframe.src = "";
   mapIframe.classList.add("d-none");
+  // Opcional: Si deseas que al volver se olvide la última ubicación
+  // localStorage.removeItem('lastLocation');
 });
 
 // Generar botones de categorías dinámicamente
@@ -137,4 +157,15 @@ function showMap(url) {
   mapIframe.classList.remove("d-none");
   // Scroll to the map
   mapIframe.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Manejo del enlace para olvidar la ubicación guardada
+const forgetLocationLink = document.getElementById('forget-location');
+if (forgetLocationLink) {
+  forgetLocationLink.addEventListener('click', function(e) {
+    e.preventDefault();
+    localStorage.removeItem('lastLocation');
+    // Recargar la página para mostrar la selección de ubicación
+    window.location.reload();
+  });
 }
