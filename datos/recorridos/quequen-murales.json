@@ -1,0 +1,709 @@
+{
+  "id": "quequen-murales",
+  "titulo": "Murales desde quequén",
+  "origen": "quequen",
+  "categoria": "murales",
+  "capa": "Indicaciones de Puente Colgante Hipólito Yrigoyen, Río, Av. Jesuita Cardiel y, B7630 Quequén, Provincia de Buenos Aires, Argentina a Calle 66 3299, Necochea, Provincia de Buenos Aires",
+  "mapaOriginal": "https://www.google.com/maps/d/u/0/embed?mid=1dxXO7fuLJ_PaViZ44AKumKmAnBYSV4w&ehbc=2E312F&noprof=1",
+  "ruta": [
+    [
+      -58.72634,
+      -38.55306
+    ],
+    [
+      -58.72639,
+      -38.55313
+    ],
+    [
+      -58.7265,
+      -38.55328
+    ],
+    [
+      -58.7266,
+      -38.55342
+    ],
+    [
+      -58.72681,
+      -38.55362
+    ],
+    [
+      -58.72693,
+      -38.55372
+    ],
+    [
+      -58.72703,
+      -38.55378
+    ],
+    [
+      -58.72718,
+      -38.55384
+    ],
+    [
+      -58.72733,
+      -38.5539
+    ],
+    [
+      -58.72734,
+      -38.5539
+    ],
+    [
+      -58.72735,
+      -38.5539
+    ],
+    [
+      -58.72736,
+      -38.5539
+    ],
+    [
+      -58.72738,
+      -38.5539
+    ],
+    [
+      -58.72739,
+      -38.5539
+    ],
+    [
+      -58.7274,
+      -38.5539
+    ],
+    [
+      -58.72741,
+      -38.55391
+    ],
+    [
+      -58.72743,
+      -38.55391
+    ],
+    [
+      -58.72753,
+      -38.55393
+    ],
+    [
+      -58.72759,
+      -38.55396
+    ],
+    [
+      -58.72764,
+      -38.55399
+    ],
+    [
+      -58.72768,
+      -38.55402
+    ],
+    [
+      -58.72771,
+      -38.55406
+    ],
+    [
+      -58.72774,
+      -38.5541
+    ],
+    [
+      -58.72776,
+      -38.55415
+    ],
+    [
+      -58.72777,
+      -38.55419
+    ],
+    [
+      -58.72777,
+      -38.5542
+    ],
+    [
+      -58.72777,
+      -38.55421
+    ],
+    [
+      -58.72777,
+      -38.55422
+    ],
+    [
+      -58.72777,
+      -38.55423
+    ],
+    [
+      -58.72777,
+      -38.55424
+    ],
+    [
+      -58.72777,
+      -38.55425
+    ],
+    [
+      -58.72783,
+      -38.55438
+    ],
+    [
+      -58.72788,
+      -38.55448
+    ],
+    [
+      -58.72796,
+      -38.55458
+    ],
+    [
+      -58.72804,
+      -38.55467
+    ],
+    [
+      -58.72809,
+      -38.55472
+    ],
+    [
+      -58.72828,
+      -38.55493
+    ],
+    [
+      -58.72857,
+      -38.55518
+    ],
+    [
+      -58.72948,
+      -38.55593
+    ],
+    [
+      -58.72988,
+      -38.55625
+    ],
+    [
+      -58.73044,
+      -38.55671
+    ],
+    [
+      -58.73139,
+      -38.55593
+    ],
+    [
+      -58.73235,
+      -38.55521
+    ],
+    [
+      -58.73334,
+      -38.55448
+    ],
+    [
+      -58.73426,
+      -38.55372
+    ],
+    [
+      -58.73428,
+      -38.5537
+    ],
+    [
+      -58.73525,
+      -38.55298
+    ],
+    [
+      -58.73525,
+      -38.55297
+    ],
+    [
+      -58.73621,
+      -38.55225
+    ],
+    [
+      -58.73644,
+      -38.55207
+    ],
+    [
+      -58.73721,
+      -38.55271
+    ],
+    [
+      -58.73737,
+      -38.55284
+    ],
+    [
+      -58.73833,
+      -38.55361
+    ],
+    [
+      -58.73915,
+      -38.55424
+    ],
+    [
+      -58.73918,
+      -38.55423
+    ],
+    [
+      -58.73921,
+      -38.55423
+    ],
+    [
+      -58.73923,
+      -38.55422
+    ],
+    [
+      -58.73926,
+      -38.55422
+    ],
+    [
+      -58.73929,
+      -38.55422
+    ],
+    [
+      -58.73932,
+      -38.55422
+    ],
+    [
+      -58.73934,
+      -38.55422
+    ],
+    [
+      -58.73937,
+      -38.55423
+    ],
+    [
+      -58.73941,
+      -38.55424
+    ],
+    [
+      -58.73945,
+      -38.55425
+    ],
+    [
+      -58.73949,
+      -38.55427
+    ],
+    [
+      -58.73952,
+      -38.55429
+    ],
+    [
+      -58.73955,
+      -38.55431
+    ],
+    [
+      -58.73958,
+      -38.55433
+    ],
+    [
+      -58.73961,
+      -38.55436
+    ],
+    [
+      -58.73963,
+      -38.55439
+    ],
+    [
+      -58.73963,
+      -38.5544
+    ],
+    [
+      -58.73964,
+      -38.55442
+    ],
+    [
+      -58.73965,
+      -38.55443
+    ],
+    [
+      -58.73965,
+      -38.55444
+    ],
+    [
+      -58.73966,
+      -38.55446
+    ],
+    [
+      -58.73966,
+      -38.55447
+    ],
+    [
+      -58.73966,
+      -38.55449
+    ],
+    [
+      -58.73966,
+      -38.5545
+    ],
+    [
+      -58.73966,
+      -38.55452
+    ],
+    [
+      -58.73966,
+      -38.55454
+    ],
+    [
+      -58.73966,
+      -38.55456
+    ],
+    [
+      -58.73966,
+      -38.55457
+    ],
+    [
+      -58.73965,
+      -38.55459
+    ],
+    [
+      -58.73965,
+      -38.55461
+    ],
+    [
+      -58.73964,
+      -38.55463
+    ],
+    [
+      -58.73963,
+      -38.55464
+    ],
+    [
+      -58.73961,
+      -38.55467
+    ],
+    [
+      -58.73959,
+      -38.55469
+    ],
+    [
+      -58.73956,
+      -38.55472
+    ],
+    [
+      -58.73954,
+      -38.55474
+    ],
+    [
+      -58.73951,
+      -38.55475
+    ],
+    [
+      -58.73947,
+      -38.55477
+    ],
+    [
+      -58.73944,
+      -38.55478
+    ],
+    [
+      -58.7394,
+      -38.55479
+    ],
+    [
+      -58.73937,
+      -38.5548
+    ],
+    [
+      -58.73933,
+      -38.5548
+    ],
+    [
+      -58.7393,
+      -38.55481
+    ],
+    [
+      -58.73926,
+      -38.55481
+    ],
+    [
+      -58.73923,
+      -38.5548
+    ],
+    [
+      -58.73919,
+      -38.5548
+    ],
+    [
+      -58.73916,
+      -38.55479
+    ],
+    [
+      -58.73913,
+      -38.55478
+    ],
+    [
+      -58.73909,
+      -38.55477
+    ],
+    [
+      -58.73906,
+      -38.55475
+    ],
+    [
+      -58.73903,
+      -38.55473
+    ],
+    [
+      -58.739,
+      -38.55471
+    ],
+    [
+      -58.73898,
+      -38.55468
+    ],
+    [
+      -58.73896,
+      -38.55466
+    ],
+    [
+      -58.73894,
+      -38.55463
+    ],
+    [
+      -58.73893,
+      -38.5546
+    ],
+    [
+      -58.73892,
+      -38.55456
+    ],
+    [
+      -58.73892,
+      -38.55454
+    ],
+    [
+      -58.73892,
+      -38.55452
+    ],
+    [
+      -58.73892,
+      -38.5545
+    ],
+    [
+      -58.73892,
+      -38.55448
+    ],
+    [
+      -58.73893,
+      -38.55446
+    ],
+    [
+      -58.73894,
+      -38.55444
+    ],
+    [
+      -58.73895,
+      -38.55442
+    ],
+    [
+      -58.73896,
+      -38.5544
+    ],
+    [
+      -58.7381,
+      -38.55377
+    ],
+    [
+      -58.73833,
+      -38.55361
+    ],
+    [
+      -58.73908,
+      -38.55303
+    ],
+    [
+      -58.73929,
+      -38.55281
+    ],
+    [
+      -58.74028,
+      -38.5521
+    ],
+    [
+      -58.74125,
+      -38.55137
+    ],
+    [
+      -58.74126,
+      -38.55135
+    ],
+    [
+      -58.74219,
+      -38.55062
+    ],
+    [
+      -58.74315,
+      -38.54988
+    ],
+    [
+      -58.74355,
+      -38.5502
+    ],
+    [
+      -58.74411,
+      -38.55064
+    ],
+    [
+      -58.74433,
+      -38.55082
+    ],
+    [
+      -58.74532,
+      -38.55158
+    ],
+    [
+      -58.74625,
+      -38.55233
+    ],
+    [
+      -58.74717,
+      -38.55308
+    ],
+    [
+      -58.74643,
+      -38.55364
+    ],
+    [
+      -58.74619,
+      -38.55382
+    ],
+    [
+      -58.74524,
+      -38.55456
+    ],
+    [
+      -58.7462,
+      -38.55534
+    ],
+    [
+      -58.74715,
+      -38.5546
+    ]
+  ],
+  "paradas": [
+    {
+      "nombre": "Puente Colgante Hipólito Yrigoyen, Río, Av. Jesuita Cardiel y, B7630 Quequén, Provincia de Buenos Aires, Argentina",
+      "direccion": "",
+      "coordenadas": [
+        -58.726344,
+        -38.553064
+      ],
+      "parrafos": [],
+      "fotos": []
+    },
+    {
+      "nombre": "Plazoleta de la Juventud - Homenaje a La Noche de los Lápices",
+      "direccion": "",
+      "coordenadas": [
+        -58.737374,
+        -38.552838
+      ],
+      "parrafos": [
+        "El 16 de septiembre de 2010 (Día Nacional de la Juventud) luego de la Jornada de la Juventud y DDHH organizada por el Colectivo Docente, se plantó en la plazoleta del boulevard de Av. 58 casi calle 57 un árbol en homenaje a los estudiantes desaparecidos durante la Noche de los Lápices.",
+        "Posteriormente, el 12 de noviembre de 2015, mediante la Ordenanza Nº 8643/15, el H.C.D. institucionalizó el nombre del espacio y estableció la colocación de una placa con el siguiente texto: “El pueblo de Necochea a la memoria de los militantes estudiantes desaparecidos durante la denominada Noche de los Lápices”.",
+        "El 30 de octubre de 2020, luego de un trabajo de puesta en valor de espacios públicos, con la colaboración de paisajistas locales, el Consorcio de Gestión de Puerto Quequén y La Usina Popular Cooperativa, el Municipio dejó oficialmente inaugurado el espacio tal cual lo vemos hoy."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/20f40622ae6c-chica.webp",
+          "grande": "datos/recorridos/fotos/20f40622ae6c-grande.webp",
+          "ancho": 1034,
+          "alto": 630,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7_fOFKbVJUUJfpJ2n5-gst9GztMIrawDdPcNJ_kybRODmPkdfHUcZEOG1fQSYyfNgP8LmsRQiQQUgM0Xde9-LkIS74SLXY047ZwutEQcjHLe4_q6SzSuc3GBh_DAX7ISn1W5V9LgyVScycGT6pB7CnxdlcwCpkgUgf2Bm3i87I9G_-3UzkrHX6rohn4DBos9ZrY74o2KdiqJnSPCYBM9m3TzOF-O4TH-0LrnDvs5imdj-pKpOmUDU6OYs"
+        },
+        {
+          "chica": "datos/recorridos/fotos/d8a03ca5dde7-chica.webp",
+          "grande": "datos/recorridos/fotos/d8a03ca5dde7-grande.webp",
+          "ancho": 730,
+          "alto": 539,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR476exbKriuPGogJYgBz8zN08jr7AdIplemlrzDukGlFEQjVZWmN4FqotebhB-8CQSdtEy6WiFfgWdDoNUIj5xtXPfE2JR0zdkCte4IfY-TInJGlL0q9jrydSCuuGKFwOgOp7aKzrgtKdCkogJKTdjaElWMyVdmXNSqq-VV70oWBNNQFwzxPdJeA23rEU-7o2A1AYp2Zw-H3E_GDuR22E1x2WbW5h4rDVoYG-9xYejPWZXQXt6mymtvoUU"
+        },
+        {
+          "chica": "datos/recorridos/fotos/6ebf9bcd8321-chica.webp",
+          "grande": "datos/recorridos/fotos/6ebf9bcd8321-grande.webp",
+          "ancho": 723,
+          "alto": 540,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6-9nBkwEkJEghEwAv4sX4XvcO-mk6EUyU8XMJdvs1xgVTIFR9mO0t3H4eydkg6M98_Slne9uJBGv9zDmCO7py-EoH0vLd8C-Qw8nRUq9y9ZihiK3CTuhGRvqajBp1fNGytXnMnV6Pep27z7dwUm7Q4Vz7_sTHRrdTchuLUtu8u03yUgG-FHZg_kIX9W_GsgyusDJJ6Ro3xHn9GCCc3HtNNdDcF1zDbzitJ5R-Pq2X-rMxsxS3b9MLnglg"
+        },
+        {
+          "chica": "datos/recorridos/fotos/3e43e66f028f-chica.webp",
+          "grande": "datos/recorridos/fotos/3e43e66f028f-grande.webp",
+          "ancho": 486,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5OzeERv3LWLt7AgIS93g-3ENktOlNta9Xlrb8QU7PX6foyU5BXF2kP6_1cQhTfA8uN-AXFmLsdSSqq_jQJKjn52QnWXmSjMAa6z2TV19AHt0rIWSNx1FpiXSp7HKGjgZ851uHmbyQCu8vcfKG52zLdwDQ5w0ED2xxLI8dMARU8AbeDzOyryeZ1CHt9irrX6T5WTXKKBTI5sVjleA99KzU4Ku6iUMbUiYJnDNYK-hjvBSR2TqSTQH2iLa8"
+        },
+        {
+          "chica": "datos/recorridos/fotos/9d7b76ff81cd-chica.webp",
+          "grande": "datos/recorridos/fotos/9d7b76ff81cd-grande.webp",
+          "ancho": 1027,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6VYQYzoUqFw5nkpEzqoTFE2xWpVhAk6lsYeYvypz-rM86U-GXPFZboVFTqQPOukAHhx5e5KwQqewmJQ5mz28XNa_giYb0wzqwhEODz48VPVrru3E_c_sQri_VHEfLo-fkIYH08lCNeaqmKeF7UMsIbHuXcHWTEHNBhAVRSAD0Rb0DurI009PPYjcm2YZadRLSDR50TdQlMRKlY8cAgP_L1-eBDgp7yR-vSrWiUliNj-vQhqyg5Sh-SyDs"
+        },
+        {
+          "chica": "datos/recorridos/fotos/38c1568e8f61-chica.webp",
+          "grande": "datos/recorridos/fotos/38c1568e8f61-grande.webp",
+          "ancho": 969,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5ka1s62xNJ2qpTfICn6UcTwqr5G2mBgUlHVKoh5VaxwbrBd6VB72fH9inBxicG357EyvLMCNfzQpFzIhfm_eoN_P7h92Hk8rsGiTJK_EsqXlMv4i9bP5Ico-DMcvhx8t9JcoDSFJsCs0u1UCmMyR59R4XEFygpoQXc67NM6PcbVyokx9aitM4hs_RsHzWFFWr3-_ZEyPI4pDQxCC29GtBNtYg1S9UdcurYDG9-p1U9rqVYfQhIdhljH44"
+        }
+      ]
+    },
+    {
+      "nombre": "Mural Noche de los Lápices",
+      "direccion": "",
+      "coordenadas": [
+        -58.738099,
+        -38.553769
+      ],
+      "parrafos": [
+        "Mural realizado en conmemoración de los/as estudiantes detenidos desaparecidos durante la Noche de los Lápices por el Movimiento de Artistas y Trabajadorxs del Espectáculo (M.A.T.E.) en el año 2008, restaurado por el Movimiento Evita en el año 2015."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/7fa58ccb7f6a-chica.webp",
+          "grande": "datos/recorridos/fotos/7fa58ccb7f6a-grande.webp",
+          "ancho": 1200,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57kPs8QVI_qSroIuQXjHXNiHiCttwKfAWVlIAgcPuA55WIMfhhTDfVFoFsJSX3NOTbZdc_XyNuWVMHWII_t9GwVKKK7m2OOgfBIDYu0hAzmk5T761bn93jw6TgPDcij-Qu0IlfRWX1PztlHb9tR23sRyR0mbTbXWgDtmg4-zeNOGKux1NwnMLLnKLDZmKwj4tsagNp9bROwsyLHeBkS25qti-g8wYlYZW1dGz9Ni2kz1cjyxVMLOhiXnk"
+        }
+      ]
+    },
+    {
+      "nombre": "Placa Homenaje a José Riqueza - Agrupación José Riqueza",
+      "direccion": "",
+      "coordenadas": [
+        -58.74643,
+        -38.553639
+      ],
+      "parrafos": [
+        "El día 27 de mayo del año 2017 en el local de la Agrupación José Riqueza, se instaló un mural en recuerdo y homenaje del militante necochense detenido desaparecido, integrante de la Federación Juvenil Comunista, José Juan \"Cuchu\" Riqueza. La realización del mismo estuvo a cargo del artista plástico local Hernán Ricaldoni. Con posterioridad, el día 9 de junio del año 2019, a 42 años de su secuestro y desaparición, los integrantes de la Federación Juvenil (FEDE) colocaron una placa conmemorativa."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/44deb7c166e9-chica.webp",
+          "grande": "datos/recorridos/fotos/44deb7c166e9-grande.webp",
+          "ancho": 564,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4gGzkWnXzIQq08Ca49Cg8YazxOoF3KYj2yS3lTUSbsQs9T8ttNq3JuOn9-sfAXHrW74WxRctvEYsqVnqCFOA-DBpSV4S27JovGiCIvgt2MmFzMZqkiAoUi_U7ugTcpQrFSvb5LDWnyLUDHnbmEUlU-6uUXGdlm6ZUk_pEMXoGync4gAJ3obadl0BfxQ1sFCiW7BGizAZesQO_XYhof0pxIxWvajjlRv1xOKYFJc4u_x5g5S0wAsGAdTrk"
+        },
+        {
+          "chica": "datos/recorridos/fotos/2d6843833810-chica.webp",
+          "grande": "datos/recorridos/fotos/2d6843833810-grande.webp",
+          "ancho": 481,
+          "alto": 635,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4PmDorZzJ20jdhMp782t6WYQL-BTe-aUX6jdgmEgQPN_tRzEalHjeQWpWXcNKfvt2ELvAIuNH7_51ajmdpG_XDmd0gc1cxW_IoUYfWXXuZ4LkSRF_kUYMTiAlIjNGQGWsU056WbrSNYEeZ3R-OVL1r3LcR3xF8LNtKjdVMj01bTLrI85i28kYAqZKIxxEAZ4WBVcxX1So1KFz2rCoTTDnAsiKWp0t6kGL5Man2LPCjDebvHdgIrKqivIg"
+        },
+        {
+          "chica": "datos/recorridos/fotos/b1d5ad5e74d8-chica.webp",
+          "grande": "datos/recorridos/fotos/b1d5ad5e74d8-grande.webp",
+          "ancho": 1044,
+          "alto": 638,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6sIC_yW_PC-c5JgJBdPim4TbObWSTEJ-rF-yttOvXp9MH8OI5_OmUXh8GIuUTy2w_tmwSy_3A8d3TP50OKO7PmVMl4Xvo-ukFgEyQVz0E9pyuNKb8EAm5I-mfJ2G-WqMhQD6TuVYQ47bjmhAs2CIeydGKReApfPQNQ8dmSIpwJbvF3SLr14bhNDfymAH73g2Ns5VmNOEhbb_CJ45tX5QY3yJjerDT-NTTw-6IpEM5gx3wQu550iVJ8kFk"
+        }
+      ]
+    },
+    {
+      "nombre": "Mural Hebe Pastor de Bonafini - Nieto 132",
+      "direccion": "",
+      "coordenadas": [
+        -58.747153,
+        -38.554599
+      ],
+      "parrafos": [
+        "Mural realizado el 12 de enero de 2023 por los artistas plásticos locales Sebastián Serqueira y Hernán Ricaldoni. En el mismo se rinde homenaje a la lucha de Hebe Pastor de Bonafini, a dos meses de su fallecimiento y se da bienvenida al nieto restituido N° 132.\nIniciativa y gestión a través de Red Puentes y el Colectivo por la Memoria local con la colaboración del CDR."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/dbcf629a1cab-chica.webp",
+          "grande": "datos/recorridos/fotos/dbcf629a1cab-grande.webp",
+          "ancho": 1043,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4AgPXZMFqKOcPfLaTUhmGGK9c5iTBDu_rZspkneq5YQuDw3H90DddgAGPHPxVneOQTmX82GvGzl6rz-XcpVzfMQYTBftoHKx9RO-wSjfjAGump20aT2zKSI2Pc_H6WEyPKEofEfKeOeP6y4JHoO8_XEr-eLCvB3Q18b2jYhvra6t03Zp4Q7Hf7limaaLaudg6rbAb5ohAfSGkZUr6cg6bBSoD4JqBM3mOYOKilf2atq1TyGuGc4noW5zo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mapa Local por la Memoria</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa Local por la Memoria</title>
+  <meta name="description" content="Mapa Local por la Memoria de Necochea y Quequén.">
+  <meta name="theme-color" content="#151413">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="style.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8M7XSD0QGC"></script>
   <script>
@@ -15,63 +20,95 @@
     gtag('config', 'G-8M7XSD0QGC');
   </script>
 </head>
-<body class="bg-light">
-  <div class="container-xl py-4 d-flex flex-column align-items-center">
-    <h1 class="text-center mb-4 custom-title">MAPA LOCAL POR LA MEMORIA</h1>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
 
-    <!-- Selección inicial: Ubicación -->
-    <div id="location-selection" class="card w-100 mb-4 shadow-sm">
-      <div class="card-body text-center">
-        <h2 class="card-title custom-card-title">¿De dónde venís?</h2>
-        <div class="d-flex flex-column align-items-center">
-          <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-location="quequen">Quequén</button>
-          <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-location="terminal">Terminal de Omnibus</button>
-          <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-location="necochea">Necochea</button>
-        </div>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Necochea · Quequén</p>
+        <h1 class="hero-title">Mapa Local <span>por la Memoria</span></h1>
+        <p class="hero-motto">Memoria, Verdad y Justicia</p>
+        <blockquote class="hero-quote">
+          <p>“La Memoria es la base sobre la cual se sustenta nuestra identidad como comunidad y nos permite trazar horizontes futuros que fortalezcan nuestra democracia.”</p>
+        </blockquote>
+        <p class="hero-lead">Elegí desde dónde partís y qué querés conocer.</p>
       </div>
+      <svg class="hero-panuelo" viewBox="0 0 96.5 100" aria-hidden="true">
+        <path fill-rule="evenodd" d="M33.2 7.8 28.5 11.6 24.4 15.9 20.8 20.5 17.2 26.1 13.2 33.4 10.4 39.2 3.1 57.6 0.1 63.5 0.1 64 13.4 64.4 25.7 65.5 51.8 68.5 65.7 69.2 66 69.8 63.2 72.1 60.5 74.9 56.4 80.7 53.2 87.6 49.4 98.3 49.7 98.4 51.3 97.8 56.9 94.9 60.1 92.7 63.6 89.7 66.1 86.8 68.4 83.4 70.3 79.5 71.9 74.7 72.2 74.2 72.6 74.2 77.4 82.9 80.5 87.5 82.9 90.3 85.8 93.2 89.3 96.1 93.7 98.8 96.3 100 96.5 99.3 93.3 89.9 90.8 83.9 87.9 78.4 85.7 75.3 83.1 72.6 80.4 70.6 77.8 69.2 77.4 68.5 77.6 67.6 80.6 64.1 82 62 84.6 56.7 86.8 50 88.6 41 89 35.8 89.1 28.9 88.5 21.6 87.5 17.1 86.3 13.5 83.4 7.9 80.5 4.6 77.5 2.7 69.5 0.9 60.9 0 52 0.5 46.5 1.6 39.5 4.1ZM70.9 7.4 73.4 7.5 75.7 8.6 78 10.8 80 13.6 82 17.7 83.2 21.5 84.7 30.4 84.7 37 84.3 41.7 83.7 45.3 82 50.6 79.8 55.4 77.8 58.5 75.6 60.5 74 61.2 72.4 61.5 69.3 61.3 67.3 60.5 65.1 58.5 63.9 56.8 61.8 52.2 60.1 47 59 42 58.4 37 58.4 32.7 59.1 27 60.2 22.2 62.4 16 63.8 12.9 65.4 10.8 67.8 8.7Z"/>
+      </svg>
     </div>
+  </header>
 
-    <!-- Selección de capas -->
-    <div id="layer-selection" class="card w-100 mb-4 d-none">
-      <div class="card-body text-center">
-        <h2 class="card-title custom-card-title">¿Qué deseas explorar?</h2>
-        <div id="layer-buttons" class="d-flex flex-column align-items-center">
-        <button class="btn btn-primary w-100 w-md-75 my-2 option custom-option" data-layer="representaciones-sociales">Representaciones Sociales</button>
-          <!-- Botones de capas se generan dinámicamente -->
-        </div>
-        <div class="d-flex justify-content-center mt-3">
-          <button id="back-button" class="btn btn-secondary w-100 w-md-50">Volver</button>
-        </div>
+  <main id="main" class="page">
+    <ol class="stepper" aria-label="Pasos del recorrido">
+      <li data-step="origin">Origen</li>
+      <li data-step="layer">Recorrido</li>
+      <li data-step="map">Mapa</li>
+    </ol>
+
+    <!-- Paso 1: Ubicación -->
+    <section id="location-selection" class="step" aria-labelledby="origin-title">
+      <h2 id="origin-title" class="step-title"><span class="step-num">01</span> ¿De dónde venís?</h2>
+      <div class="card-grid card-grid--origins">
+        <button type="button" class="choice-card option" data-location="quequen" style="--i:0">
+          <span class="choice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/></svg>
+          </span>
+          <span class="choice-text">
+            <span class="choice-title">Quequén</span>
+            <span class="choice-sub">Recorridos desde Quequén</span>
+          </span>
+          <span class="choice-arrow" aria-hidden="true">→</span>
+        </button>
+        <button type="button" class="choice-card option" data-location="terminal" style="--i:1">
+          <span class="choice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/></svg>
+          </span>
+          <span class="choice-text">
+            <span class="choice-title">Terminal de Ómnibus</span>
+            <span class="choice-sub">Recorridos desde la Terminal</span>
+          </span>
+          <span class="choice-arrow" aria-hidden="true">→</span>
+        </button>
+        <button type="button" class="choice-card option" data-location="necochea" style="--i:2">
+          <span class="choice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+          </span>
+          <span class="choice-text">
+            <span class="choice-title">Necochea</span>
+            <span class="choice-sub">Recorridos desde Necochea</span>
+          </span>
+          <span class="choice-arrow" aria-hidden="true">→</span>
+        </button>
       </div>
-    </div>
+    </section>
 
-    <!-- Mapa -->
-    <iframe 
-      id="map" 
-      src="" 
-      height="400" 
-      frameborder="0" 
-      class="w-100 d-none">
-    </iframe>
-  </div>
+    <!-- Paso 2: Tema -->
+    <section id="layer-selection" class="step" aria-labelledby="layer-title" hidden>
+      <div class="step-head">
+        <button type="button" id="back-button" class="btn-ghost">← Cambiar origen</button>
+        <p class="step-context">Partiendo desde <strong id="current-origin"></strong></p>
+      </div>
+      <h2 id="layer-title" class="step-title"><span class="step-num">02</span> ¿Qué querés explorar?</h2>
+      <div id="layer-buttons" class="card-grid card-grid--layers">
+        <!-- Tarjetas de temas se generan dinámicamente -->
+      </div>
+    </section>
+  </main>
 
-
-  <footer class="text-center py-3">
+  <footer class="site-footer">
     <div class="footer-content">
-      <p class="mb-0">
-      Desarrolladora Web: <a href="https://portafoliokatiagadea.netlify.app/" target="_blank">Katia Gadea;</a> 
-      Colaboradores: Iara Pereyra Alvarez, Nahuel Andres García, Maria Jose Acien, Evelyn Torres, Julieta Carceres, Fiorella Orfano | PSE de UNICEN Quequén
+      <p>
+        Desarrolladora Web: <a href="https://portafoliokatiagadea.netlify.app/" target="_blank" rel="noopener">Katia Gadea</a>
       </p>
-      <div class="mt-2">
-        <a href="#" id="forget-location" class="small text-muted">Olvidar ubicación guardada</a>
-      </div>
+      <p>
+        Colaboradores: Iara Pereyra Alvarez, Nahuel Andres García, Maria Jose Acien, Evelyn Torres, Julieta Carceres, Fiorella Orfano · PSE de UNICEN Quequén
+      </p>
     </div>
-
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="temas.js"></script>
   <script src="map-interactions.js"></script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+---
+description: Registro de problemas resueltos de este proyecto
+alwaysApply: true
+---
+
+Antes de depurar, leer `.cursor/problemas-resueltos.md` y buscar por síntoma o palabra clave.
+Si hay un caso similar, aplicar la solución documentada. Si el problema es nuevo y no trivial, agregar una entrada arriba de todo con el formato del archivo.

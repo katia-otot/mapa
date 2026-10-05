@@ -1,0 +1,1018 @@
+{
+  "id": "terminal-escuelas",
+  "titulo": "Escuelas desde Terminal",
+  "origen": "terminal",
+  "categoria": "escuelas",
+  "capa": "Terminal - Escuelas (7,4km Totales)",
+  "mapaOriginal": "https://www.google.com/maps/d/u/0/embed?mid=1-eAojrCYuxXSvqe0Aj9vVjcpzLevc2Q&ehbc=2E312F&noprof=1",
+  "ruta": [
+    [
+      -58.73067,
+      -38.54855
+    ],
+    [
+      -58.73069,
+      -38.5486
+    ],
+    [
+      -58.73073,
+      -38.54872
+    ],
+    [
+      -58.73073,
+      -38.54877
+    ],
+    [
+      -58.73072,
+      -38.5488
+    ],
+    [
+      -58.73071,
+      -38.54882
+    ],
+    [
+      -58.7307,
+      -38.54883
+    ],
+    [
+      -58.73068,
+      -38.54884
+    ],
+    [
+      -58.73065,
+      -38.54886
+    ],
+    [
+      -58.73059,
+      -38.54888
+    ],
+    [
+      -58.73056,
+      -38.54888
+    ],
+    [
+      -58.73047,
+      -38.54854
+    ],
+    [
+      -58.73047,
+      -38.54853
+    ],
+    [
+      -58.73041,
+      -38.54837
+    ],
+    [
+      -58.7304,
+      -38.54834
+    ],
+    [
+      -58.7304,
+      -38.54833
+    ],
+    [
+      -58.7304,
+      -38.54832
+    ],
+    [
+      -58.73041,
+      -38.54831
+    ],
+    [
+      -58.73041,
+      -38.5483
+    ],
+    [
+      -58.73042,
+      -38.5483
+    ],
+    [
+      -58.73043,
+      -38.54829
+    ],
+    [
+      -58.73046,
+      -38.54827
+    ],
+    [
+      -58.73057,
+      -38.54824
+    ],
+    [
+      -58.73055,
+      -38.54815
+    ],
+    [
+      -58.73027,
+      -38.54826
+    ],
+    [
+      -58.73027,
+      -38.54828
+    ],
+    [
+      -58.73035,
+      -38.54859
+    ],
+    [
+      -58.7304,
+      -38.54886
+    ],
+    [
+      -58.7304,
+      -38.54892
+    ],
+    [
+      -58.73045,
+      -38.54938
+    ],
+    [
+      -58.73045,
+      -38.54966
+    ],
+    [
+      -58.73045,
+      -38.54968
+    ],
+    [
+      -58.73043,
+      -38.54987
+    ],
+    [
+      -58.73042,
+      -38.55005
+    ],
+    [
+      -58.73028,
+      -38.55067
+    ],
+    [
+      -58.73028,
+      -38.55068
+    ],
+    [
+      -58.73035,
+      -38.5507
+    ],
+    [
+      -58.73046,
+      -38.55074
+    ],
+    [
+      -58.73056,
+      -38.55078
+    ],
+    [
+      -58.73064,
+      -38.55083
+    ],
+    [
+      -58.73074,
+      -38.5509
+    ],
+    [
+      -58.73103,
+      -38.55112
+    ],
+    [
+      -58.73129,
+      -38.55132
+    ],
+    [
+      -58.73144,
+      -38.55148
+    ],
+    [
+      -58.7324,
+      -38.55223
+    ],
+    [
+      -58.73332,
+      -38.55297
+    ],
+    [
+      -58.73426,
+      -38.55372
+    ],
+    [
+      -58.73428,
+      -38.5537
+    ],
+    [
+      -58.73525,
+      -38.55298
+    ],
+    [
+      -58.73525,
+      -38.55297
+    ],
+    [
+      -58.73621,
+      -38.55225
+    ],
+    [
+      -58.73644,
+      -38.55207
+    ],
+    [
+      -58.73744,
+      -38.55132
+    ],
+    [
+      -58.7384,
+      -38.55058
+    ],
+    [
+      -58.73781,
+      -38.55011
+    ],
+    [
+      -58.73746,
+      -38.54983
+    ],
+    [
+      -58.73647,
+      -38.55055
+    ],
+    [
+      -58.7355,
+      -38.55129
+    ],
+    [
+      -58.73644,
+      -38.55207
+    ],
+    [
+      -58.73721,
+      -38.55271
+    ],
+    [
+      -58.73737,
+      -38.55284
+    ],
+    [
+      -58.73833,
+      -38.55361
+    ],
+    [
+      -58.73884,
+      -38.55321
+    ],
+    [
+      -58.73908,
+      -38.55303
+    ],
+    [
+      -58.73929,
+      -38.55281
+    ],
+    [
+      -58.74028,
+      -38.5521
+    ],
+    [
+      -58.73932,
+      -38.55133
+    ],
+    [
+      -58.7384,
+      -38.55058
+    ],
+    [
+      -58.73746,
+      -38.54983
+    ],
+    [
+      -58.73647,
+      -38.55055
+    ],
+    [
+      -58.7355,
+      -38.55129
+    ],
+    [
+      -58.73526,
+      -38.55148
+    ],
+    [
+      -58.7343,
+      -38.5522
+    ],
+    [
+      -58.73428,
+      -38.55222
+    ],
+    [
+      -58.73332,
+      -38.55297
+    ],
+    [
+      -58.73239,
+      -38.55369
+    ],
+    [
+      -58.73193,
+      -38.55397
+    ],
+    [
+      -58.73187,
+      -38.55403
+    ],
+    [
+      -58.73141,
+      -38.55444
+    ],
+    [
+      -58.73047,
+      -38.55516
+    ],
+    [
+      -58.72948,
+      -38.55593
+    ],
+    [
+      -58.72854,
+      -38.55668
+    ],
+    [
+      -58.72853,
+      -38.55669
+    ],
+    [
+      -58.72852,
+      -38.55668
+    ],
+    [
+      -58.7276,
+      -38.55592
+    ],
+    [
+      -58.72662,
+      -38.55512
+    ],
+    [
+      -58.72644,
+      -38.55498
+    ],
+    [
+      -58.72637,
+      -38.55491
+    ],
+    [
+      -58.72648,
+      -38.55482
+    ],
+    [
+      -58.72655,
+      -38.55475
+    ],
+    [
+      -58.72664,
+      -38.55465
+    ],
+    [
+      -58.72674,
+      -38.55453
+    ],
+    [
+      -58.72683,
+      -38.5544
+    ],
+    [
+      -58.72691,
+      -38.55429
+    ],
+    [
+      -58.72694,
+      -38.55424
+    ],
+    [
+      -58.72694,
+      -38.55423
+    ],
+    [
+      -58.72694,
+      -38.55422
+    ],
+    [
+      -58.72694,
+      -38.55421
+    ],
+    [
+      -58.72694,
+      -38.5542
+    ],
+    [
+      -58.72695,
+      -38.55415
+    ],
+    [
+      -58.72697,
+      -38.55411
+    ],
+    [
+      -58.727,
+      -38.55406
+    ],
+    [
+      -58.72703,
+      -38.55402
+    ],
+    [
+      -58.72707,
+      -38.55399
+    ],
+    [
+      -58.72712,
+      -38.55396
+    ],
+    [
+      -58.72717,
+      -38.55394
+    ],
+    [
+      -58.72723,
+      -38.55392
+    ],
+    [
+      -58.72733,
+      -38.5539
+    ],
+    [
+      -58.72734,
+      -38.5539
+    ],
+    [
+      -58.72735,
+      -38.5539
+    ],
+    [
+      -58.72736,
+      -38.5539
+    ],
+    [
+      -58.72738,
+      -38.5539
+    ],
+    [
+      -58.72739,
+      -38.5539
+    ],
+    [
+      -58.7274,
+      -38.5539
+    ],
+    [
+      -58.72741,
+      -38.55391
+    ],
+    [
+      -58.72743,
+      -38.55391
+    ],
+    [
+      -58.72753,
+      -38.55393
+    ],
+    [
+      -58.72759,
+      -38.55396
+    ],
+    [
+      -58.72764,
+      -38.55399
+    ],
+    [
+      -58.72768,
+      -38.55402
+    ],
+    [
+      -58.72771,
+      -38.55406
+    ],
+    [
+      -58.72774,
+      -38.5541
+    ],
+    [
+      -58.72776,
+      -38.55415
+    ],
+    [
+      -58.72777,
+      -38.55419
+    ],
+    [
+      -58.72777,
+      -38.5542
+    ],
+    [
+      -58.72777,
+      -38.55421
+    ],
+    [
+      -58.72777,
+      -38.55422
+    ],
+    [
+      -58.72777,
+      -38.55423
+    ],
+    [
+      -58.72777,
+      -38.55424
+    ],
+    [
+      -58.72777,
+      -38.55425
+    ],
+    [
+      -58.72783,
+      -38.55438
+    ],
+    [
+      -58.72788,
+      -38.55448
+    ],
+    [
+      -58.72796,
+      -38.55458
+    ],
+    [
+      -58.72804,
+      -38.55467
+    ],
+    [
+      -58.72809,
+      -38.55472
+    ],
+    [
+      -58.72828,
+      -38.55493
+    ],
+    [
+      -58.72857,
+      -38.55518
+    ],
+    [
+      -58.72948,
+      -38.55593
+    ],
+    [
+      -58.72854,
+      -38.55668
+    ],
+    [
+      -58.72853,
+      -38.55669
+    ],
+    [
+      -58.72757,
+      -38.55746
+    ],
+    [
+      -58.72655,
+      -38.55822
+    ],
+    [
+      -58.72703,
+      -38.55861
+    ],
+    [
+      -58.72748,
+      -38.55897
+    ],
+    [
+      -58.72841,
+      -38.55971
+    ],
+    [
+      -58.72857,
+      -38.55984
+    ],
+    [
+      -58.72936,
+      -38.56046
+    ],
+    [
+      -58.7301,
+      -38.56106
+    ],
+    [
+      -58.73032,
+      -38.56124
+    ],
+    [
+      -58.73054,
+      -38.56141
+    ],
+    [
+      -58.73009,
+      -38.56178
+    ],
+    [
+      -58.72988,
+      -38.56194
+    ],
+    [
+      -58.72987,
+      -38.56198
+    ],
+    [
+      -58.72983,
+      -38.56204
+    ],
+    [
+      -58.72979,
+      -38.56209
+    ],
+    [
+      -58.72973,
+      -38.56213
+    ],
+    [
+      -58.72969,
+      -38.56226
+    ],
+    [
+      -58.72966,
+      -38.56234
+    ],
+    [
+      -58.7296,
+      -38.56256
+    ],
+    [
+      -58.72959,
+      -38.56291
+    ],
+    [
+      -58.72957,
+      -38.56367
+    ],
+    [
+      -58.72954,
+      -38.56502
+    ],
+    [
+      -58.72955,
+      -38.56513
+    ],
+    [
+      -58.72955,
+      -38.56527
+    ],
+    [
+      -58.72953,
+      -38.56623
+    ],
+    [
+      -58.7295,
+      -38.56806
+    ],
+    [
+      -58.7295,
+      -38.56815
+    ],
+    [
+      -58.7295,
+      -38.56826
+    ],
+    [
+      -58.72948,
+      -38.56956
+    ],
+    [
+      -58.72946,
+      -38.57103
+    ],
+    [
+      -58.72946,
+      -38.5711
+    ],
+    [
+      -58.72945,
+      -38.57117
+    ],
+    [
+      -58.72942,
+      -38.57393
+    ],
+    [
+      -58.72942,
+      -38.57401
+    ],
+    [
+      -58.72941,
+      -38.5741
+    ],
+    [
+      -58.7294,
+      -38.57423
+    ],
+    [
+      -58.7294,
+      -38.57433
+    ],
+    [
+      -58.72939,
+      -38.57544
+    ],
+    [
+      -58.72939,
+      -38.57564
+    ],
+    [
+      -58.72939,
+      -38.57567
+    ],
+    [
+      -58.72938,
+      -38.57569
+    ],
+    [
+      -58.72938,
+      -38.5757
+    ],
+    [
+      -58.72937,
+      -38.57573
+    ],
+    [
+      -58.72937,
+      -38.57591
+    ],
+    [
+      -58.72933,
+      -38.57693
+    ],
+    [
+      -58.72929,
+      -38.57702
+    ],
+    [
+      -58.72925,
+      -38.5771
+    ],
+    [
+      -58.72894,
+      -38.57751
+    ],
+    [
+      -58.72858,
+      -38.57812
+    ],
+    [
+      -58.72858,
+      -38.57813
+    ],
+    [
+      -58.72856,
+      -38.57816
+    ],
+    [
+      -58.72823,
+      -38.57872
+    ],
+    [
+      -58.72754,
+      -38.57979
+    ],
+    [
+      -58.72726,
+      -38.58029
+    ],
+    [
+      -58.72717,
+      -38.58045
+    ],
+    [
+      -58.72698,
+      -38.58078
+    ],
+    [
+      -58.7269,
+      -38.58091
+    ],
+    [
+      -58.72825,
+      -38.58143
+    ],
+    [
+      -58.72848,
+      -38.58106
+    ]
+  ],
+  "paradas": [
+    {
+      "nombre": "Terminal de omnibus, Necochea, Provincia de Buenos Aires",
+      "direccion": "",
+      "coordenadas": [
+        -58.730672,
+        -38.548546
+      ],
+      "parrafos": [],
+      "fotos": []
+    },
+    {
+      "nombre": "Escuela N°12 - Placa y árbol homenaje a Edirma Nélida Vieytes",
+      "direccion": "",
+      "coordenadas": [
+        -58.73781,
+        -38.550108
+      ],
+      "parrafos": [
+        "El 30 de mayo de 2016, al cumplirse 39 años del secuestro y desaparición de la ex alumna Edirma Nélida Vieytes (Edith) la Escuela realizó un acto recordándola, durante el mismo se plantó un árbol y se colocó una placa en su memoria."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/426657fdd4ee-chica.webp",
+          "grande": "datos/recorridos/fotos/426657fdd4ee-grande.webp",
+          "ancho": 854,
+          "alto": 638,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Q1HeGgqFz1GBSkiqSGBRR7_-XgL5B46ijGnucto1ldqmtKd86PMxdmsppMMYyDsykAJGRWslc7pxzIRveeu6RR2sfYenXIzY0l6nCVAI6uFEzMYHvyldANED9x3euq-aPTr68S-W65wh5sUFm73-V6xd62AEPxQ26tGlDoBZ3NXqkBjz7vWYMi2-mfIei2khTmaQvyGkiUOoEEISIvGQJe4mG0jun-GOqgG3bMf3AZVIubNZrI3p2a7c"
+        },
+        {
+          "chica": "datos/recorridos/fotos/93ddbff70c34-chica.webp",
+          "grande": "datos/recorridos/fotos/93ddbff70c34-grande.webp",
+          "ancho": 486,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Bjx6KTDyNsbczpe76J4XapYrPJyUkuaZfoylWZp2KChUoHO7tKxoMK9qc2rxMTT7i8TpHaaC3bieKnJsCnhpcO6jYcPXfqMvCpVp21Vzw-IiQwQYW60-YWoLtU-QUjRwMBxPHEgiYfMZOwnYPkhANg43oleusb8VEZIZTc3jTVhuxmHiZrQWxIqtrODhVbxLarAu4zS0wL4ECIFOtfljBTp-aS8X9cfYFh0mAHD-vPf47PeIDgQaHhC0"
+        }
+      ]
+    },
+    {
+      "nombre": "Colegio Nacional - Placa homenaje ex alumnos",
+      "direccion": "",
+      "coordenadas": [
+        -58.738843,
+        -38.553208
+      ],
+      "parrafos": [
+        "El 24 de marzo de 1999 en las instalaciones de la Escuela Normal Superior \"José Manuel de Estrada\" se colocó una placa homenajeando a los cinco ex alumnos detenidos desaparecidos de esa institución. La misma recuerda a Roberto Porfidio, José Riqueza, Graciela Sagüés, Rubén Molina y Susana Haristeguy."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/5379b76630d2-chica.webp",
+          "grande": "datos/recorridos/fotos/5379b76630d2-grande.webp",
+          "ancho": 896,
+          "alto": 632,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR633lg9aTrhuT4hpjXs4yWCAJ4BhHQSUDWPjYn4W-_q3nBCnl3tOj6FDAON4R8QPjWvomUxR0_a7ru__Nwfu4gWXf-t5X6lycVLVZl_u2AgIArESlgwWI1-uiJaWJUT2xJJWmsX1qXOkUmyqNcuoB_pYYnY67RSvPz2pUaQllNPNTtGu2nCCmQDS6QzKWB3NCoHMytpECzvqQzaspFt0n3blJwzrRIMC2GbJAVHerYxgbxVA7ZLKVLyVME"
+        },
+        {
+          "chica": "datos/recorridos/fotos/36f3af89f0d3-chica.webp",
+          "grande": "datos/recorridos/fotos/36f3af89f0d3-grande.webp",
+          "ancho": 964,
+          "alto": 622,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6iGFuPBVFn5fwE_17rdCVJETFYpjlRno_PI9R3ERB4Ld2h-4WG8c_qFuVpb9fJ4To3Daced0s2u2_qro0UbiuAPUFsAuSgK3NM8QJS85HQ3gBMInB4YVXQY1SDFTZ-RaX-6R_TdYCGUgs4WaGlICBL5OVtQEBtbvhHEy_K_JZyn6PeRkplxCfNe2yUJiUB4pDWam1cdPS1E99U_3_t6JqUJpvKLDvTr_9P7nZedDI2smpzx8tp-Cg39Fg"
+        }
+      ]
+    },
+    {
+      "nombre": "Colegio Industrial EEST Nº2,ex ENET Nº1 - Placa homenaje ex alumnos detenidos desaparecidos",
+      "direccion": "",
+      "coordenadas": [
+        -58.726546,
+        -38.554751
+      ],
+      "parrafos": [
+        "El 19 de noviembre del año 2012 en el marco de las celebraciones de los 50 años del colegio industrial y a 45 años de su egreso se reunieron los ex alumnos integrantes de la primera promoción de Técnicos Electromecánicos (1967). Durante la jornada, acompañados también de familiares y amigos, se colocó una placa con la nómina de egresados y se recordó a los ausentes, entre ellos a los detenidos desaparecidos Roberto Adolfo Lorenzo y Luis Alberto Sotuyo. Actualmente esta placa no está en el lugar y se desconoce su destino.",
+        "Posteriormente en el año 2015 se confecciono y emplazo un monolito conmemorativo a Roberto y Luis en el patio interno del SUM frente al mástil, en esta ocasión impulsado y elaborado artesanalmente por el centro de estudiantes de la institución junto al Movimiento Estudiantil Necochea Quequén con la colaboración de familiares. Durante este emotivo acto desde el Movimiento Estudiantil se leyó la siguiente poesía:",
+        "Como se escribe la historia no es una pregunta",
+        "Es la prueba de que nadie puede dar la idea exacta de un hecho",
+        "Aunque se asome a la ventana",
+        "La noche del 14 de agosto de 1976,",
+        "Los chicos dormían,",
+        "El barrio era tomado por los militares,",
+        "No había forma de escapar.",
+        "La casa fue ametrallada,",
+        "Salieron por detrás,",
+        "Y treparon el paredón,",
+        "corriendo en piyamas,",
+        "por las calles oscuras.",
+        "Nadie les quiso abrir,",
+        "¿Nadie vio nada?,",
+        "¿Nadie escucho?,",
+        "A Piqui le dieron 5 balazos,",
+        "A todos se los chuparon.",
+        "Fueron llevados a La Escuelita,",
+        "Uno de los centros de concentración",
+        "Mas fuertes y terroríficos,",
+        "Pocos sobrevivieron para contarla.",
+        "Allí estuvieron detenidos Piqui y Dora,",
+        "Pasaron sus últimos momentos",
+        "Entre el terror y la tortura,",
+        "Los gritos de Dora se siguen oyendo.",
+        "Dora fue drogada y tirada al atlántico,",
+        "El mismo mar que baña nuestra costa,",
+        "El cuerpo de Piqui no está,",
+        "Y el de Poro fue devuelto sin sus manos,",
+        "Atravesado por las balas.",
+        "La casa saqueada,",
+        "Los cuerpos desaparecidos,",
+        "Las familias destrozadas.",
+        "los sueños rotos por la realidad",
+        "los compañeros rotos por la realidad/",
+        "los sueños de los compañeros rotos",
+        "¿están verdaderamente rotos/perdidos/nada/",
+        "se pudren bajo tierra? / ¿su rota luz",
+        "diseminada a pedacitos bajo tierra? / ¿alguna vez",
+        "los pedacitos se van a juntar?",
+        "¿va a haber la fiesta de los pedacitos que se",
+        "reúnen?",
+        "El presente acto,",
+        "Intenta unir pedacitos,",
+        "Recuperar el tejido social roto",
+        "Por el miedo y el exterminio.",
+        "Hoy intentamos construir un mundo para todos y todas,",
+        "No nos dejen afuera.",
+        "(la poesía se redactó en base a poesía de otrxs autorxs y hechos reales)"
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/ba05ab893b2e-chica.webp",
+          "grande": "datos/recorridos/fotos/ba05ab893b2e-grande.webp",
+          "ancho": 721,
+          "alto": 538,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ZsyvINK9gKw4cWaS8T5eGfcmVIGLMdq7LY471b5rfdGyWtwQIECSNDjF0D7bLB3CAsziiz7r2Zmpb3ii6JMY-AHchRq5EsRwslH3RvYWEIVI1go3eAPckXcrqDyXVmpiaAjZUQCokdt1t3MpDs30Vm48n9zrbrBgT5Aiu2K-t_KevwlhxWAi3V0Pg_amBJiVghInhlRiaPOyVWufKnXjuUZDX_J9LW0dGhmmIWH673fFROfWAX6UTQ50"
+        },
+        {
+          "chica": "datos/recorridos/fotos/12d734164e43-chica.webp",
+          "grande": "datos/recorridos/fotos/12d734164e43-grande.webp",
+          "ancho": 357,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7wGNYKb5L7koRZGRPvDF2RK2pSo21JRpiaauwUgyx2iV3npfxMs1E5NaghNH2u-npPBbVXQl2XmgqhifWDMo5TDko_DPnxZ0GZR3AF2KXm30dP1OILtfEdBwG5yLNJzsisbB3KaVHE6D3a_b2nLDd4tAOj-yvPDaS1O7PgDShlh4-qUJmBUnkihtVWgie8d9Fkp-f8sVdSjAUzbXODjO5xZSF_bM_8S_-5HJezYfxyo0T3rtfCEjawbMQ"
+        },
+        {
+          "chica": "datos/recorridos/fotos/49694499cd59-chica.webp",
+          "grande": "datos/recorridos/fotos/49694499cd59-grande.webp",
+          "ancho": 715,
+          "alto": 537,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7jqzDToJzYmxSg2ratLReu7go5kI8exWmaUt6d94vlX64ywkj8Iof9hHtrXAWx5aQZZKv5h7SKJ9YApm1jjSxz2TA_7lEfM9bvq6vGXVazzWaSNVLfwEoe1spNy_BdeJ33R40sp1hsQYzqY-FxwfOIm5IaywY1YoJE0_cV5SWkTFO-vU6NQM-Hsx9GMhLSFHXdUPFID1RqsQGFG_uibS0MxI-YPtciNZ4AjMYp8lnNMZB6yCkyMR1CXtY"
+        },
+        {
+          "chica": "datos/recorridos/fotos/a86cb717d886-chica.webp",
+          "grande": "datos/recorridos/fotos/a86cb717d886-grande.webp",
+          "ancho": 716,
+          "alto": 477,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5SZvENyPOaSMAc9ouG0tFm0Q5K_QvpcgsgqU-oMNvJHQIrwiMxzRXTru6PmLDQrrMzTPG66mMHUxA1RT8sigwJsCgyjfaTMBGzw5Yo6dXu9OAHS5LsnaqUbjUqfKlOb9UqyEy3kHAyBJdoAZIME7VEb0RjZ1YW6bdD6-eB7x3pZF0rXxDUP3Ewctq2bilu5rxkAqbcSbK166Zg3UeX_ms2S8b1SddPXLvJhgOj8KYZvOVMyXfY36hbYN0"
+        },
+        {
+          "chica": "datos/recorridos/fotos/e5eaf60798dd-chica.webp",
+          "grande": "datos/recorridos/fotos/e5eaf60798dd-grande.webp",
+          "ancho": 856,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6BpkVZjxoSfTVRFHCRT9YCIaMWrykjqrzyN-64Kz8ipEz7NDpVgUcJMQ3UNbybpXXc9sjHXOl9REqlSDhsIeSmBLbRlwbcw7vN17NjBz9VerNSoM4j6atv149pMbsZNIvB3bEvPPtS2uS_8LD-91gY6sCixWmdByJndQdUzt63VouvMbikD_TygWFBlj_DZTBpw7oyhK0zDnCrpsjKpWOHrBFcW5GCu0VssDMLElnrSuD0PpglWe5Cmro"
+        },
+        {
+          "chica": "datos/recorridos/fotos/353a741879bc-chica.webp",
+          "grande": "datos/recorridos/fotos/353a741879bc-grande.webp",
+          "ancho": 484,
+          "alto": 638,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR42y1ZouMRRnf8UFvCfTZ7iITTU85joCHkpwFGq6S4LET2FftcnNk16eO1uNUSBv7dwNccI1yc2qEWjoLHLVkyuxt_a9KMCEeu7ALSIi1xQaBJRXeoGlFjMox44fbcEolQDWg_duSPefgJsniSGaVQa7_V8ognb0V9S_oWzBESIjJCVAu5X6S89u1V2s03LAMzDRNFAbq3eO46ANOQ9D3bdKPoIyN1pA_MBy7RLRImd83ZyM9jOeQU5_Wo"
+        }
+      ]
+    },
+    {
+      "nombre": "Escuela Nº 28 - Placa ex alumnos Detenidos Desaparecidos",
+      "direccion": "",
+      "coordenadas": [
+        -58.728476,
+        -38.581065
+      ],
+      "parrafos": [
+        "El 21 de septiembre de 2012 por iniciativa de los alumnos de 6° grado A y B se dio nombre al S.U.M. de la institución educativa, recordando a los ex alumnos detenidos desaparecidos Luis Alberto Sotuyo, Claudio De Acha y Daniel Garramone. El proyecto Memoria Viva fue trabajado junto a la docente Telma Casina con la coordinación de la directora Prof. Silvina Furgat y la participación de familiares, amigos y organismos de DDHH locales."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/d4d665627cfa-chica.webp",
+          "grande": "datos/recorridos/fotos/d4d665627cfa-grande.webp",
+          "ancho": 529,
+          "alto": 387,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Rv2ycnSBr2U7u6hcohfraeD72v-6yMm_QmE8MxgiPRt1HpVcXxf7Ydg1dVyGPtZ8iacvdmmaVvLa10vJzJ-0B8Za-7CVvFzbgYnawP7jwhPPalzNou6bokDO2_dBLElFTnp98lOY0gET9l81eONw9-2vio2cx06FSiI7m4q5uqJD8dZnJ7yLfhSMZreuE2-CDHdS0bqMY4dPrvqbfUkwMo8ErIm3_22qpzLk8G1o0D4q6v6QZVFucR-c"
+        },
+        {
+          "chica": "datos/recorridos/fotos/53575772ac1d-chica.webp",
+          "grande": "datos/recorridos/fotos/53575772ac1d-grande.webp",
+          "ancho": 720,
+          "alto": 530,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4YFY8aKkmiWekjyCCeO5MSM-p5vEV3s4fHbfnTrjKFl_Pt64VTbS205UCUgqtf60_d8P_O0s8fYLpQ1KgpwZKIeLaHRBad4NSJeHCKPR0T_KUe1fjXZy1EK-pIGZTJ2CST3By35wR6mKKYvjY6YkbEXaXG-nap4RWS_1SN1jIHXySeJWyMUu5L_fhlU3Yo08J8THJkC6_akSAOdi5hbpP_bL3UTGkQWNItsbieiEfizFbuGgNzduzuD-M"
+        },
+        {
+          "chica": "datos/recorridos/fotos/129291932786-chica.webp",
+          "grande": "datos/recorridos/fotos/129291932786-grande.webp",
+          "ancho": 719,
+          "alto": 529,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5zAOobwL9cLyVNKhNb2WrfqVrVcrl-rSR9p4tI3H8oogHNdriR_4cXBs3deJvsyg1UFPGIgJw5vG4tPrsQUwhF2i4UBh00ZJPTSfTiX8YxTE0bHrQKnlPWI1kbATljJsaXpwqVUC26bxfiuZoyp1UicEsFccIQatzstj32FxnAmopiTjkZyogqS_-inWHgf-sFS6O1XQ2E8vQY0fL0QFFiNa_cRV5tyizmpfG4FIMBsiCRIkqaNyVqj9A"
+        },
+        {
+          "chica": "datos/recorridos/fotos/67af6597a593-chica.webp",
+          "grande": "datos/recorridos/fotos/67af6597a593-grande.webp",
+          "ancho": 764,
+          "alto": 568,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR682fI0I2x7BnT9YlpM31DfpBHQL-1lSyvXhZQ04UcBwXPdNyjHhuKqQdojgR4uao8gPcT-Jlnb8tAn1a2SG_AIfugCYF6AuPzcDWOdg_aCRmwfV3dXFXeHh7zMXNOAX3JtgmjWaxMY2cghG6v33i-KqApez-x31PGrmCtYeF9YzERaIqy4QyIKm8oNDGQprg44loV7WGj68LcZUYcgB9pET4QMGIUjdxejO6u93Ut9wkBJ7urPlW8Pxqk"
+        }
+      ]
+    }
+  ]
+}

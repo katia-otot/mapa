@@ -1,0 +1,919 @@
+{
+  "id": "terminal-secuestro",
+  "titulo": "Lugares de Secuestro desde Terminal ",
+  "origen": "terminal",
+  "categoria": "lugadesDeSecuestro",
+  "capa": "Terminal- Lugares de Secuestro (7,2 km Totales)",
+  "mapaOriginal": "https://www.google.com/maps/d/u/0/embed?mid=1PLk7uTHBO3P5_HQHc_ECO15Cplw1cdE&ehbc=2E312F&noprof=1",
+  "ruta": [
+    [
+      -58.73067,
+      -38.54855
+    ],
+    [
+      -58.73069,
+      -38.5486
+    ],
+    [
+      -58.73073,
+      -38.54872
+    ],
+    [
+      -58.73073,
+      -38.54877
+    ],
+    [
+      -58.73072,
+      -38.5488
+    ],
+    [
+      -58.73071,
+      -38.54882
+    ],
+    [
+      -58.7307,
+      -38.54883
+    ],
+    [
+      -58.73068,
+      -38.54884
+    ],
+    [
+      -58.73065,
+      -38.54886
+    ],
+    [
+      -58.73059,
+      -38.54888
+    ],
+    [
+      -58.73056,
+      -38.54888
+    ],
+    [
+      -58.73047,
+      -38.54854
+    ],
+    [
+      -58.73047,
+      -38.54853
+    ],
+    [
+      -58.73041,
+      -38.54837
+    ],
+    [
+      -58.7304,
+      -38.54834
+    ],
+    [
+      -58.7304,
+      -38.54833
+    ],
+    [
+      -58.7304,
+      -38.54832
+    ],
+    [
+      -58.73041,
+      -38.54831
+    ],
+    [
+      -58.73041,
+      -38.5483
+    ],
+    [
+      -58.73042,
+      -38.5483
+    ],
+    [
+      -58.73043,
+      -38.54829
+    ],
+    [
+      -58.73046,
+      -38.54827
+    ],
+    [
+      -58.73057,
+      -38.54824
+    ],
+    [
+      -58.73055,
+      -38.54815
+    ],
+    [
+      -58.73027,
+      -38.54826
+    ],
+    [
+      -58.73027,
+      -38.54828
+    ],
+    [
+      -58.73035,
+      -38.54859
+    ],
+    [
+      -58.7304,
+      -38.54886
+    ],
+    [
+      -58.7304,
+      -38.54892
+    ],
+    [
+      -58.73045,
+      -38.54938
+    ],
+    [
+      -58.73045,
+      -38.54966
+    ],
+    [
+      -58.73045,
+      -38.54968
+    ],
+    [
+      -58.73043,
+      -38.54987
+    ],
+    [
+      -58.73042,
+      -38.55005
+    ],
+    [
+      -58.73028,
+      -38.55067
+    ],
+    [
+      -58.73028,
+      -38.55068
+    ],
+    [
+      -58.73018,
+      -38.55102
+    ],
+    [
+      -58.72992,
+      -38.55179
+    ],
+    [
+      -58.72986,
+      -38.55191
+    ],
+    [
+      -58.72971,
+      -38.55215
+    ],
+    [
+      -58.72959,
+      -38.55236
+    ],
+    [
+      -58.72928,
+      -38.55271
+    ],
+    [
+      -58.72896,
+      -38.55297
+    ],
+    [
+      -58.7288,
+      -38.5531
+    ],
+    [
+      -58.72863,
+      -38.55322
+    ],
+    [
+      -58.72841,
+      -38.5534
+    ],
+    [
+      -58.72839,
+      -38.55348
+    ],
+    [
+      -58.72837,
+      -38.55353
+    ],
+    [
+      -58.72818,
+      -38.55369
+    ],
+    [
+      -58.72807,
+      -38.5538
+    ],
+    [
+      -58.72792,
+      -38.55397
+    ],
+    [
+      -58.72782,
+      -38.55411
+    ],
+    [
+      -58.72777,
+      -38.55419
+    ],
+    [
+      -58.72777,
+      -38.5542
+    ],
+    [
+      -58.72777,
+      -38.55421
+    ],
+    [
+      -58.72777,
+      -38.55422
+    ],
+    [
+      -58.72777,
+      -38.55423
+    ],
+    [
+      -58.72777,
+      -38.55424
+    ],
+    [
+      -58.72777,
+      -38.55425
+    ],
+    [
+      -58.72776,
+      -38.55431
+    ],
+    [
+      -58.72775,
+      -38.55434
+    ],
+    [
+      -58.72772,
+      -38.55439
+    ],
+    [
+      -58.72769,
+      -38.55442
+    ],
+    [
+      -58.72765,
+      -38.55446
+    ],
+    [
+      -58.72761,
+      -38.55449
+    ],
+    [
+      -58.72756,
+      -38.55451
+    ],
+    [
+      -58.7275,
+      -38.55453
+    ],
+    [
+      -58.72742,
+      -38.55455
+    ],
+    [
+      -58.7274,
+      -38.55455
+    ],
+    [
+      -58.72738,
+      -38.55455
+    ],
+    [
+      -58.72736,
+      -38.55455
+    ],
+    [
+      -58.72735,
+      -38.55455
+    ],
+    [
+      -58.72733,
+      -38.55455
+    ],
+    [
+      -58.72731,
+      -38.55455
+    ],
+    [
+      -58.72729,
+      -38.55455
+    ],
+    [
+      -58.72728,
+      -38.55454
+    ],
+    [
+      -58.7272,
+      -38.55458
+    ],
+    [
+      -58.72708,
+      -38.55462
+    ],
+    [
+      -58.72687,
+      -38.55472
+    ],
+    [
+      -58.72676,
+      -38.55477
+    ],
+    [
+      -58.72656,
+      -38.5549
+    ],
+    [
+      -58.72644,
+      -38.55498
+    ],
+    [
+      -58.72632,
+      -38.55503
+    ],
+    [
+      -58.72626,
+      -38.55506
+    ],
+    [
+      -58.72624,
+      -38.55506
+    ],
+    [
+      -58.72623,
+      -38.55506
+    ],
+    [
+      -58.7262,
+      -38.5551
+    ],
+    [
+      -58.72538,
+      -38.55573
+    ],
+    [
+      -58.72503,
+      -38.55602
+    ],
+    [
+      -58.72487,
+      -38.55615
+    ],
+    [
+      -58.72439,
+      -38.55654
+    ],
+    [
+      -58.72431,
+      -38.55662
+    ],
+    [
+      -58.72425,
+      -38.55668
+    ],
+    [
+      -58.72412,
+      -38.55683
+    ],
+    [
+      -58.7239,
+      -38.55718
+    ],
+    [
+      -58.72378,
+      -38.55749
+    ],
+    [
+      -58.72376,
+      -38.55751
+    ],
+    [
+      -58.72371,
+      -38.55777
+    ],
+    [
+      -58.72367,
+      -38.55805
+    ],
+    [
+      -58.7236,
+      -38.55889
+    ],
+    [
+      -58.72353,
+      -38.56017
+    ],
+    [
+      -58.72352,
+      -38.56031
+    ],
+    [
+      -58.72351,
+      -38.56048
+    ],
+    [
+      -58.7235,
+      -38.56074
+    ],
+    [
+      -58.72348,
+      -38.56102
+    ],
+    [
+      -58.72345,
+      -38.56165
+    ],
+    [
+      -58.72344,
+      -38.56175
+    ],
+    [
+      -58.72344,
+      -38.56179
+    ],
+    [
+      -58.72333,
+      -38.56219
+    ],
+    [
+      -58.72327,
+      -38.56237
+    ],
+    [
+      -58.72322,
+      -38.56247
+    ],
+    [
+      -58.7231,
+      -38.56267
+    ],
+    [
+      -58.72301,
+      -38.56283
+    ],
+    [
+      -58.72295,
+      -38.5629
+    ],
+    [
+      -58.72292,
+      -38.56302
+    ],
+    [
+      -58.72284,
+      -38.56327
+    ],
+    [
+      -58.72283,
+      -38.56328
+    ],
+    [
+      -58.72271,
+      -38.56362
+    ],
+    [
+      -58.72271,
+      -38.56364
+    ],
+    [
+      -58.7227,
+      -38.56369
+    ],
+    [
+      -58.72267,
+      -38.56376
+    ],
+    [
+      -58.72262,
+      -38.56386
+    ],
+    [
+      -58.72255,
+      -38.56397
+    ],
+    [
+      -58.72259,
+      -38.56402
+    ],
+    [
+      -58.72262,
+      -38.56406
+    ],
+    [
+      -58.72266,
+      -38.56413
+    ],
+    [
+      -58.7227,
+      -38.56418
+    ],
+    [
+      -58.72278,
+      -38.56424
+    ],
+    [
+      -58.72284,
+      -38.56429
+    ],
+    [
+      -58.72327,
+      -38.56462
+    ],
+    [
+      -58.7236,
+      -38.56487
+    ],
+    [
+      -58.72438,
+      -38.56552
+    ],
+    [
+      -58.72454,
+      -38.56565
+    ],
+    [
+      -58.72476,
+      -38.56583
+    ],
+    [
+      -58.7238,
+      -38.56657
+    ],
+    [
+      -58.72358,
+      -38.56641
+    ],
+    [
+      -58.72373,
+      -38.56628
+    ],
+    [
+      -58.72454,
+      -38.56565
+    ],
+    [
+      -58.72549,
+      -38.56491
+    ],
+    [
+      -58.72647,
+      -38.56417
+    ],
+    [
+      -58.72654,
+      -38.56422
+    ],
+    [
+      -58.7267,
+      -38.56435
+    ],
+    [
+      -58.72686,
+      -38.56448
+    ],
+    [
+      -58.72735,
+      -38.56487
+    ],
+    [
+      -58.72751,
+      -38.56499
+    ],
+    [
+      -58.72767,
+      -38.56512
+    ],
+    [
+      -58.7286,
+      -38.56588
+    ],
+    [
+      -58.72763,
+      -38.56662
+    ],
+    [
+      -58.72719,
+      -38.56696
+    ],
+    [
+      -58.72667,
+      -38.56736
+    ],
+    [
+      -58.72581,
+      -38.56795
+    ],
+    [
+      -58.72569,
+      -38.56803
+    ],
+    [
+      -58.72567,
+      -38.56805
+    ],
+    [
+      -58.72505,
+      -38.5686
+    ],
+    [
+      -58.72475,
+      -38.56883
+    ],
+    [
+      -58.72569,
+      -38.56959
+    ],
+    [
+      -58.72664,
+      -38.57033
+    ],
+    [
+      -58.72712,
+      -38.57072
+    ],
+    [
+      -58.72757,
+      -38.57108
+    ],
+    [
+      -58.72852,
+      -38.57184
+    ],
+    [
+      -58.7284,
+      -38.57192
+    ],
+    [
+      -58.72756,
+      -38.57258
+    ],
+    [
+      -58.72659,
+      -38.57333
+    ],
+    [
+      -58.72564,
+      -38.57404
+    ],
+    [
+      -58.72516,
+      -38.57441
+    ],
+    [
+      -58.72467,
+      -38.57476
+    ],
+    [
+      -58.72367,
+      -38.57553
+    ],
+    [
+      -58.72366,
+      -38.57554
+    ],
+    [
+      -58.72298,
+      -38.57674
+    ],
+    [
+      -58.72382,
+      -38.57704
+    ],
+    [
+      -58.72424,
+      -38.5772
+    ],
+    [
+      -58.72445,
+      -38.57727
+    ],
+    [
+      -58.72468,
+      -38.57736
+    ],
+    [
+      -58.72547,
+      -38.57768
+    ],
+    [
+      -58.72557,
+      -38.57773
+    ],
+    [
+      -58.72686,
+      -38.57818
+    ],
+    [
+      -58.72802,
+      -38.57864
+    ],
+    [
+      -58.72823,
+      -38.57872
+    ],
+    [
+      -58.72864,
+      -38.57887
+    ],
+    [
+      -58.72885,
+      -38.57895
+    ],
+    [
+      -58.72906,
+      -38.57903
+    ],
+    [
+      -58.72926,
+      -38.57911
+    ],
+    [
+      -58.72962,
+      -38.57924
+    ],
+    [
+      -58.72985,
+      -38.57932
+    ],
+    [
+      -58.73091,
+      -38.57968
+    ]
+  ],
+  "paradas": [
+    {
+      "nombre": "Terminal de omnibus, Necochea, Provincia de Buenos Aires",
+      "direccion": "",
+      "coordenadas": [
+        -58.730672,
+        -38.548546
+      ],
+      "parrafos": [],
+      "fotos": []
+    },
+    {
+      "nombre": "Daniel Fausto Garramone (20/03/23)",
+      "direccion": "",
+      "coordenadas": [
+        -58.723796,
+        -38.566569
+      ],
+      "parrafos": [
+        "Daniel Garramone\nEn la madrugada del 31 de mayo de 1977, mientras regresaba a su domicilio, fue secuestrado por integrantes del Grupo de Artillería de Defensa Aérea 601 de Mar del Plata. Sus secuestradores lo esperaron sobre la calle 26 en el trayecto comprendido por la Av. 59 y calle 63. El procedimiento ilegal lo llevó a cabo un grupo de 6 personas vestidas de civil y fuertemente armadas, que contaban con el apoyo de la cúpula policial local, quienes liberaron la zona.\nDurante esas horas, en distintos operativos, también fueron detenidos-desaparecidos Alfredo Reim y Edirma Nélida Vieytes. Unos días después, Juan Felipe Miyares.\nDaniel Garramone nació el 31 de enero de 1951 en Necochea, realizó sus estudios primarios en las escuelas N°28 y N°2 de nuestra ciudad. Al finalizar sus estudios comenzó a trabajar en la pesca como “aprendiz”. En 1973 obtuvo la matrícula de patrón de pesca en rada o ría, pero su secuestro le impidió obtener la patente de motorista naval.\nAl momento de su desaparición contaba con 26 años, era casado y tenía un hijo. Continúa desaparecido."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/7b72167746ca-chica.webp",
+          "grande": "datos/recorridos/fotos/7b72167746ca-grande.webp",
+          "ancho": 363,
+          "alto": 635,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4uf9pVTQ2plsEL8G-Yyq1xRJ0MFbSmmCy7XPb45Xb7gA74Gmdop02aCiNPsofUEkGzpCwmWCamQx5YKhqeV-BVpsqvkWpflJ-Zdo34aggUMv_agqbPrJGTJh44D_9q-cW2jgHGeryh_wsRfLZuyLK6mTnybLw7S6GN8q5qHbfRcFSVQb0xNDDt9tt7B6uT36-zxU0PMTr0QRjmlc8gZfvPQqWiIuEjAfZaN--C5y_ZlCCs-BNj_xEnblY"
+        },
+        {
+          "chica": "datos/recorridos/fotos/c87006700c85-chica.webp",
+          "grande": "datos/recorridos/fotos/c87006700c85-grande.webp",
+          "ancho": 850,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6stpwezaaVgQNKn_BzPC4f5tr-g9NLCET6YoElmaZULpBmJA91GCjoZZG13-xxaXJfd6KNsjdsIlv0PsqFD7ChVDC3boo1YkIa9YrOrulU5dN_7bpKYnv1yJ0B2x4_45-afIKhxl6b68_6hKxEsQWNhZfD8SQ9HE8wSVGqkG88xTXyLITSEqFHkpVPnp5ocXJubLbae-CqcOooCatM1S_wpGZw8W1VQkRhrMaXViDHzL2pz1iAq9uqiUI"
+        },
+        {
+          "chica": "datos/recorridos/fotos/4a337c0be6ea-chica.webp",
+          "grande": "datos/recorridos/fotos/4a337c0be6ea-grande.webp",
+          "ancho": 853,
+          "alto": 632,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6inEy7pNbv4QWakRIJ3EljjAjFtF2anxi1Ybz_8xS468CdKXVERJqmn_s6O-T6s_iRPYPhjQtQe8PlDKLc6AsH2JXcxiZAXcBH73VBqItlKWp61XcqgaNxYwbgFE4FSp37zZFY_EPcnzj7yU1iMDpi8U-zvCb3CbCTVV7zZyH3ZiYAZXh64uIHvbRF2FS23r4pvwi_H_ulCmhz62sy6pARf037KvUa7hZDk7ADFICBXFIYrHEQn8qOynk"
+        }
+      ]
+    },
+    {
+      "nombre": "Alfredo Reim (31/5/23)",
+      "direccion": "",
+      "coordenadas": [
+        -58.72767,
+        -38.565121
+      ],
+      "parrafos": [
+        "Alfredo Reim\nEn la madrugada del 31 de mayo de 1977, fue secuestrado en un mega operativo realizado por integrantes del Grupo de Artillería de Defensa Aérea 601 de Mar del Plata, con conocimiento y apoyo de la cúpula policial local, que liberó la zona para facilitar la detención ilegal. Los secuestradores rodearon la manzana de la casa en donde vivía, en 61 N° 1325.\nDurante esas horas, en distintos operativos, fueron detenidos-desaparecidos Daniel Garramone y Edirma Nélida Vieytes. Unos días después, Juan Felipe Miyares.\nAlfredo nació en Necochea el 6 de diciembre de 1933. Vivió en Río Gallegos algunos años y formó su familia. Al poco tiempo regresó solo a nuestra ciudad. Era pescador y hacía trabajos de albañilería.\nAl momento de su desaparición tenía 44 años. Continúa desaparecido."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/8157810d5930-chica.webp",
+          "grande": "datos/recorridos/fotos/8157810d5930-grande.webp",
+          "ancho": 313,
+          "alto": 634,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6l64tkr4GY0zcTuVpjm5pv5a_IoP69O49A6f2zgX0_rjQHtNGgfp7BbK6QxCv4w6JQBtEVTDlunVTIaRdKV_AvgF29m7GRsoIiEUSzT-2YMNZSNLdibu6TcolNdoHYlka5vbuV8hBsPuyqqfySxxUFslVtHI4-R-QHJDf4-K0eg6DU6-OS10M9UX9d3RrTA1cm0qDwsWHj_P3QGfb9hciKwjhVpGXQhismdIsY5WuE2xGdLhkxKuAVVIc"
+        },
+        {
+          "chica": "datos/recorridos/fotos/81403ac19bb6-chica.webp",
+          "grande": "datos/recorridos/fotos/81403ac19bb6-grande.webp",
+          "ancho": 487,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4QC3dfgZ2zbNIO7gyvVUzKprHdLqkmCdcLY8_QSwG4z2poI68XMInHnQV0BIMrhFmDgV1-QNqhmnAUauqQfI2Y0sGPbR1DVDM99YHL4l1mb68ywGf6uDF_6o0fHAVeudfKvrGcZ90TahbdCTKbnkzwb1K4gv41gDvocv6G3AfCo9YpzGGWWFOgvrajGKptxAY3D9TVqGQHGGYyJ-cdtKMEqazz5-DvdFQmFJY7mRhIelShc8rqIPQt1LI"
+        },
+        {
+          "chica": "datos/recorridos/fotos/f2ff78a0bab5-chica.webp",
+          "grande": "datos/recorridos/fotos/f2ff78a0bab5-grande.webp",
+          "ancho": 853,
+          "alto": 639,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6EmGu4watW9b7_zco62XWN8BfbPGbQ8RcQdxlcSWhLsLGFgzhejYGVZi60TtP6ZLMx614xyLU2DwxmMZqWs24RX2_zvziaJxN2LKVHCYxYHsdBkYRNKrHgqQYS4Dbua-kf08Mh-SX0Vd6tHeq7f7qa-2-GZPxkf35Umx6O6dMsz9l_YfEPYZ2P6v6aXmc7ci8CgLY3eAMKvexZt4l-mt5_mLW2N4Z4TwBbuJQ_a4bXZpVRbKrcOXAa1Yg"
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Felipe Miyares (16/6/23)",
+      "direccion": "",
+      "coordenadas": [
+        -58.727555,
+        -38.572575
+      ],
+      "parrafos": [
+        "A las 19:30 horas del día 10 de junio de 1977, mientras regresaba a su domicilio, fue secuestrado por integrantes del Grupo de Artillería de Defensa Aérea 601 de Mar del Plata. La detención ilegal fue realizada por 5 secuestradores al mando de un militar, todos vestidos de civil, movilizados en dos Ford Falcon verdes, portando armas largas y cortas, allanaron el domicilio de calle 71 N° 736; con el conocimiento y apoyo de la cúpula policial local, quienes liberaron la zona.\nDurante el allanamiento ilegal de su vivienda, los secuestradores robaron elementos de valor, incluida una camioneta Rastrojera.\nDías previos a su secuestro, fueron detenidos-desaparecidos en nuestra ciudad, Alfredo Reim, Daniel Garramone y Edirma Nélida Vieytes.\nJuan nació el 29 de septiembre de 1914 en Balcarce. Una vez radicado en Necochea, instaló el comercio de pesca “Almacén Naval” frente al Monumento a los Pescadores, a metros de Puerto Quequén.\nAl momento de su desaparición tenía 62 años y era casado. Continúa desaparecido."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/17665a0e452e-chica.webp",
+          "grande": "datos/recorridos/fotos/17665a0e452e-grande.webp",
+          "ancho": 310,
+          "alto": 638,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5oDM4ayktTVJIYHV8DfRJL9aAvTDHd4MIitdlLaP9XR9JhbtqwaRG-GxDaYSzf3LL2-FLEIEW8OR4_XZR7_AyWU_A-_j_qidjy8dxEZFzY_bVt_dsTBRxOxzE4ooIxKDCWUkWt5NPEqSFiQ6gjwNzsu6uE8_QiNmQcGywze1YG6JjKonU9lelPLPyhuenJtALzd1t1FINRv8YpjF6AFW10VO5umUiTBMIxucnmHUhMR11ORuRfNo8Ue0o"
+        },
+        {
+          "chica": "datos/recorridos/fotos/262a64a9999e-chica.webp",
+          "grande": "datos/recorridos/fotos/262a64a9999e-grande.webp",
+          "ancho": 850,
+          "alto": 635,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5rsmpBOc6zry5pf5spGB9qmYCz0cOwzkkoc6XDZ6c0pvnDGbJ6UjWXZOcB7HPdc85VUdlrPtFK0ZnBEKLU_gi4AQEyEndr6aLR0IEbqYpY2i45A_JZqBxBGmDUB042plbVFCKcqP4mKJHwevzM8zWLyWaqhO0c2tBFcVStzGClOltecbV4FCfi1c-akJ84CtC95qeMdZillfNQYIhIz-3LpTGwtbWXm2qCiRSuic7PfI0uwmy6PHO9Sm4"
+        },
+        {
+          "chica": "datos/recorridos/fotos/6345c983f776-chica.webp",
+          "grande": "datos/recorridos/fotos/6345c983f776-grande.webp",
+          "ancho": 476,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR79wcwK7HpCUDmhTfYtBVSfD3j0TxK6shCKqQ05latupGLIWeK37l6QjLHZ9z6CAPbnOOID0ogAdsw_cNvmWZjPtWtrpZYNFI2wOJFIx4GKtBUnH5LDkoBFGt_IKflmSV_0AXXOW8d_FAaJ0dl0EovA1XWPADlPaAMEairpyVlU4q0fYD0959X1aEyVvqO1Aze3DSKOT6DsNNhzw10yBCO1IaE-3mmGpEMQdGxsf18_j07cdTL23fa5ATM"
+        },
+        {
+          "chica": "datos/recorridos/fotos/cab915ac24a0-chica.webp",
+          "grande": "datos/recorridos/fotos/cab915ac24a0-grande.webp",
+          "ancho": 854,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7qhk2as4VsADGYhkgvus3pSSl3EohDwK9VLsA9LE_cOxZQBHzpLD1H7NUBcBfYLl8QIVqOrfBNjrR90ntfhTqAFh9njH4-JaVRgtvmyEUa1L0FF3oRjC-CV8FBO9l6qEMsIP3tMJ6msm4tsIhX7HBD_NjtJdGwYVqMQXX5r_ZmXZkrkdQNC9ahzqsaRGx844qs2fzmFNaJ5QsZwT20LuBr9h7NvgYh5pP0SA5_IknuMIkcfIaAqgNdyw0"
+        }
+      ]
+    },
+    {
+      "nombre": "Claudio de Acha (15/9/23)",
+      "direccion": "",
+      "coordenadas": [
+        -58.730907,
+        -38.579676
+      ],
+      "parrafos": [
+        "Claudio nació el 21 de septiembre de 1958, en el barrio “Los Plátanos”, cerca de La Plata. Vivió algunos años de su niñez en Necochea, donde cursó estudios primarios en la Escuela N° 28. Su vivienda estaba ubicada en Av.75 y calle 6, cuando en esa zona solo había algunas casas y calles de tierra. Posteriormente, por cuestiones laborales, la familia se trasladó a General Pico (La Pampa) y tiempo después regresó a La Plata.\nLa madrugada del 16 de septiembre de 1976, Claudio fue secuestrado en su domicilio de Diagonal 73 N° 2539 de La Plata, por un grupo armado identificado con el Ejército. Fue trasladado al Centro Clandestino de Detención “Destacamento de Arana” y luego a “El Pozo de Banfield”, pertenecientes a la Policía de la Provincia de Buenos Aires y dependientes operacionalmente del Primer Cuerpo de Ejército.\nSu Caso fue incluido en varias causas judiciales en las que se investigaron, probaron y condenaron delitos de lesa humanidad.\nFue uno de los/as jóvenes detenidos-desaparecidos durante la acción que los propios represores denominaron “La Noche de los Lápices”. Tenía apenas 17 años y continúa desaparecido. https://photos.app.goo.gl/VSA7pTE9sq8YpxbK9"
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/c4418a72564b-chica.webp",
+          "grande": "datos/recorridos/fotos/c4418a72564b-grande.webp",
+          "ancho": 419,
+          "alto": 634,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4nnV8547-B7D9eYWqWJXUUBQY_bVEtevemALZAD32iXEhJ2eb93tPChztMv0ljFcQFdIuGMumeVy3aJ6ALYDS0M9LuyLOiYvT6O_9P_OHVq9OIyri1N8eIuP9484lCyFC2VK9YggpEEP4XjyE1NcjAGbMhrx-0n71tuBVc8DnitUvrcIBjIIKRCW73JNeup3XPeiR7k5kveTZn-uDGw_CAEc4wsJIFTxX8TtKe3je-SMFwVvoNf02XC4I"
+        },
+        {
+          "chica": "datos/recorridos/fotos/fa5c60655d56-chica.webp",
+          "grande": "datos/recorridos/fotos/fa5c60655d56-grande.webp",
+          "ancho": 1137,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5e2zMq6Dhiih1b_0hKS85hAMF4SuZC8vdHa-c4UCkdMr0NV05Z6I9M4LrEa-OaEYOl36KEvyN5Q09RQOlUIGaMVqHvJkrrqzeDwCWwLAVcZ9ivLgtkA-n6TLCX1Igw0HIUrOC7ImZNca6CuU8IKQ4t42mxdKxIuQIM8DfrVsKZQ5lfeMwu3zGVhOJ2BbBJuC0ThfIJfsi_DrXulNLIrXH_czv-BKdZV87CpijEWNOXNlf5Evfiw2v1-bM"
+        },
+        {
+          "chica": "datos/recorridos/fotos/de4ced897b3d-chica.webp",
+          "grande": "datos/recorridos/fotos/de4ced897b3d-grande.webp",
+          "ancho": 1133,
+          "alto": 635,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6cDbtkzAS-dfHwLaxQ19kd0XDDDvnjvdl0F6kkwiKpFBSEKYJV2CiIe8tygyGZggtezh-GHVka-eNfyVpfU7GjhPTMGcV5qW8tPUGowhXoDMrUUW7avVbq-FG6YdztzGr4K0WmHydGECajVaQyxubY2YHwezE9Cfse4aiLtqrI5qN63z4AOTOTMo2RMPIvg46d4w30xkRc57WCX-D3Q7hZjtlSVc6Lu-xXsbOq8qVsUK4tOti77OZVHo0"
+        },
+        {
+          "chica": "datos/recorridos/fotos/3b05e36e2e35-chica.webp",
+          "grande": "datos/recorridos/fotos/3b05e36e2e35-grande.webp",
+          "ancho": 355,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4WGw9pwzRU3TQbfzfhh0xjfPAmFHcUoOiOYjLTohld5uimJOan6TDB90i5IRbyj9m1bnLYt7gV7jKWX5FEls_Jprd7MAMdKfo9LrAa8oMmoK-Q9pI2gp9eTYVS_7ElXpC5aoAPTtd_FzOa2GCCjxDXyO1Kn3eVWnDv5skGC5AFFZapExsQlFsunhNH6GKtP6InSt6hj4sYG03EMr5rTm8eRLriCqQHZTiDSdcxA0P9Zkk5gCIza-cR2ok"
+        },
+        {
+          "chica": "datos/recorridos/fotos/01ab906808f4-chica.webp",
+          "grande": "datos/recorridos/fotos/01ab906808f4-grande.webp",
+          "ancho": 363,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5BDr2U-6QadfIyYOuCKLqHwydsTsvdJYBBqwSyk8HSliJdAQgI-dwVTQ4kNXrZIDtDkhRplAyPKOTf379KFSB-IccqcY6cEfJ75a5pgpxUJeEsI3jP5cjQE-5hTnsUxVwwUWgdxNFu3iqZkXvRpTAzM16M2gTyET_IBj1yRUzuzwmkvOSbQF4FcSmuyeCzfHBkwzkHjBM0ZpIqtbu9Bl8fIBkhA3rH5PzMgWr7uTGqgTn4VzEeVRwmdFI"
+        }
+      ]
+    }
+  ]
+}

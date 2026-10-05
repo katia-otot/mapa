@@ -1,0 +1,330 @@
+{
+  "id": "necochea-abuelas",
+  "titulo": "Memoria a las Abuelas desde Hospital",
+  "origen": "necochea",
+  "categoria": "abuelas",
+  "capa": "Hospital Municipal Dr. Emilio Ferreyra - Memoria de las Abuelas",
+  "mapaOriginal": "https://www.google.com/maps/d/u/0/embed?mid=1HnN0-oD8ltFQOX0xFc1bOQFRkFRDrs4&ehbc=2E312F&noprof=1",
+  "ruta": [
+    [
+      -58.7609,
+      -38.53813
+    ],
+    [
+      -58.76078,
+      -38.53823
+    ],
+    [
+      -58.76037,
+      -38.53854
+    ],
+    [
+      -58.75989,
+      -38.53892
+    ],
+    [
+      -58.75883,
+      -38.53967
+    ],
+    [
+      -58.75882,
+      -38.53968
+    ],
+    [
+      -58.75788,
+      -38.54044
+    ],
+    [
+      -58.75788,
+      -38.54045
+    ],
+    [
+      -58.75694,
+      -38.54118
+    ],
+    [
+      -58.75661,
+      -38.54142
+    ],
+    [
+      -58.75644,
+      -38.54155
+    ],
+    [
+      -58.75594,
+      -38.54192
+    ],
+    [
+      -58.75494,
+      -38.54264
+    ],
+    [
+      -58.75404,
+      -38.5434
+    ],
+    [
+      -58.75309,
+      -38.54413
+    ],
+    [
+      -58.75308,
+      -38.54414
+    ],
+    [
+      -58.75212,
+      -38.54486
+    ],
+    [
+      -58.75193,
+      -38.54501
+    ],
+    [
+      -58.75114,
+      -38.54562
+    ],
+    [
+      -58.75018,
+      -38.54635
+    ],
+    [
+      -58.74922,
+      -38.54708
+    ],
+    [
+      -58.74826,
+      -38.54782
+    ],
+    [
+      -58.74726,
+      -38.54858
+    ],
+    [
+      -58.74703,
+      -38.54839
+    ],
+    [
+      -58.74609,
+      -38.54762
+    ],
+    [
+      -58.74515,
+      -38.54688
+    ],
+    [
+      -58.7442,
+      -38.54613
+    ],
+    [
+      -58.74326,
+      -38.54538
+    ],
+    [
+      -58.7427,
+      -38.54493
+    ],
+    [
+      -58.74227,
+      -38.5446
+    ],
+    [
+      -58.74137,
+      -38.54387
+    ],
+    [
+      -58.74104,
+      -38.54412
+    ],
+    [
+      -58.74039,
+      -38.5446
+    ],
+    [
+      -58.74037,
+      -38.54461
+    ],
+    [
+      -58.73942,
+      -38.54537
+    ],
+    [
+      -58.73844,
+      -38.5461
+    ],
+    [
+      -58.7375,
+      -38.54683
+    ],
+    [
+      -58.73656,
+      -38.54757
+    ],
+    [
+      -58.73557,
+      -38.54829
+    ],
+    [
+      -58.73505,
+      -38.5487
+    ],
+    [
+      -58.73467,
+      -38.54837
+    ],
+    [
+      -58.73465,
+      -38.54835
+    ],
+    [
+      -58.73445,
+      -38.54811
+    ],
+    [
+      -58.73438,
+      -38.54806
+    ],
+    [
+      -58.73383,
+      -38.54761
+    ],
+    [
+      -58.73438,
+      -38.54806
+    ],
+    [
+      -58.73445,
+      -38.54811
+    ],
+    [
+      -58.73465,
+      -38.54835
+    ],
+    [
+      -58.73467,
+      -38.54837
+    ],
+    [
+      -58.73505,
+      -38.5487
+    ]
+  ],
+  "paradas": [
+    {
+      "nombre": "Hospital Municipal Dr. Emilio Ferreyra, Necochea, Provincia de Buenos Aires",
+      "direccion": "",
+      "coordenadas": [
+        -58.760902,
+        -38.538129
+      ],
+      "parrafos": [],
+      "fotos": []
+    },
+    {
+      "nombre": "Plantamos Memoria",
+      "direccion": "",
+      "coordenadas": [
+        -58.733825,
+        -38.54757
+      ],
+      "parrafos": [
+        "El 23 de marzo del año 2021, el Archivo Municipal de la Memoria, acompañando la consigna propuesta por los organismos nacionales de DDHH (Plantamos Memoria) convocó a la plantación de ejemplares arbóreos autóctonos en memoria de los/as detenidos desaparecidos locales.",
+        "“La Memoria, al igual que la semilla, viene cargada de futuro. Contiene toda la información genética para poder llegar a ser el árbol que late en su destino. En tiempos de incendios, deforestación y cambio climático, invitamos a plantar vida como un acto de memoria y futuro. Porque el recuerdo de cada compañerx detenidx desaparecidx trae consigo el legado de lucha por un país más justo y solidario” destacaron en su comunicado los organismos nacionales convocantes.\nhttps://youtu.be/jggDLSCh3Qs"
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/3663482e10a9-chica.webp",
+          "grande": "datos/recorridos/fotos/3663482e10a9-grande.webp",
+          "ancho": 717,
+          "alto": 523,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5HoXbM7Hwt4Ck0LbUelOSSCeHlAhMYfIETmwibacqOVR2iEzJPlM4gVi_kv0TAUuj4nFFaJvrRHalybyqJsXuqgPs499cmOFbACsl9Aa8cSb70xSroY52AlhCw7BnrkhmgRUy6triPcRmlZ6cbmbGZ5Izq_ki5ysetDxHr0lAk_o4Kf7wlrdCU985WchiRiDwM9G2_iThJA8P34QbgF_pT0mIsMeMrIoaECFq29S8ejFoq7_hDJEt61ZI"
+        },
+        {
+          "chica": "datos/recorridos/fotos/64727f7a1ab5-chica.webp",
+          "grande": "datos/recorridos/fotos/64727f7a1ab5-grande.webp",
+          "ancho": 639,
+          "alto": 632,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR64x8NdUBIfVxU8Vlrs-BeYJnp7rQmDmuGGJuSkdZKJW3RGCjJM331gMlSsSugLfzCaMnW-vBu2-d0w2bQ1sqPp8fh2nR-1Rt_odAnNXt7S45PE4uUkYcEip8AWt5CN3kO7HykiMWyzwBEjEuGV7QTtfDsL6PBwVh3ohmMCfWF9uZlghazFS9lndQG0xIOtKsgiBG5U-ja9iT00NzkXJ5yybYg4P54XgUpEA1lbw2YQ_gEdajN9ceMdv98"
+        },
+        {
+          "chica": "datos/recorridos/fotos/18d9574a06b4-chica.webp",
+          "grande": "datos/recorridos/fotos/18d9574a06b4-grande.webp",
+          "ancho": 575,
+          "alto": 639,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4e5zbIwgltf26tgEMSuCPHmwXB5wvcjihZlnpdaaeevF9qNNz7LM-aC-BQzMfXflibctcAxTSTdGMc1ugd8PX7_j-mbWDve99wREl7xq-_Qu27XF1zYl6v0Bu0EVh2u1plca4fc0rwhwjpUQVU3I529A4bD1ZM8ksqKF9rKGxLC7jD5bCbAvJjj6tDtHuVoOuFmGrzGeYMqqtkWX5Lu69SGZx6x0fKLuGLZFdO5XIqiQUV0kK9HfZPzlw"
+        },
+        {
+          "chica": "datos/recorridos/fotos/c5d8a5fcf9c3-chica.webp",
+          "grande": "datos/recorridos/fotos/c5d8a5fcf9c3-grande.webp",
+          "ancho": 887,
+          "alto": 513,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR78RV-QJBrwmJtQgaz7w-5cDSkuBDQxdhpP5hYNdA-v86q2JJSKCFkT885TFG-0NrP3XXYx466cldjxE_LMU4MJguw8gwMajvyz1u9jgYlGold8myCFo0EHt9C264-NSOmpLGKwv1ImPZwgkbnzAKKDVDYe169VSj_CRbeGtVxAm-bdWwzWuzYPFMNrbEmBcfTK8p2wSLZ5LJqi5RW7PSkSqFNGQ5g-duz_S8wL4SGwysyPObVrkurJ5aQ"
+        },
+        {
+          "chica": "datos/recorridos/fotos/42a532f77d75-chica.webp",
+          "grande": "datos/recorridos/fotos/42a532f77d75-grande.webp",
+          "ancho": 719,
+          "alto": 539,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7PB0O15v5gzUTlEaCxXl3eXGwhB-Fi7CbOqZzITiKM89OOeWALWbGRxuLtXYhv-JdBTtxZN_1ouclZr4FMHOMYp2hLqjXLg2mqP_-yxRuS8sXKfj732I1A6dBBxlQRaGwJ82GBuq731qkiegmswCeGD3V8v4Zt1LPxZ-SluKM80jhTyK0s8mQsLywJSo3wRpQUjH6OCNuZxTymkkEoOzFL-0CyLYEDLpfyX0Wyc5UVmP5cfn9YXRv47nY"
+        }
+      ]
+    },
+    {
+      "nombre": "Espacio de las Abuelas de Plaza de Mayo",
+      "direccion": "",
+      "coordenadas": [
+        -58.734337,
+        -38.547995
+      ],
+      "parrafos": [
+        "Inaugurado el 22 de octubre de 2021. (Plantamos Memoria. Florece Identidad)",
+        "El Archivo Municipal de la Memoria, creado por Ordenanza N° 10.534/21 impulsó la conformación de este espacio público y abierto al aire libre destinado a la historia y el presente de las Abuelas de Plaza de Mayo, con el objeto de que actúe como homenaje al recorrido de las Abuelas y como espacio didáctico e informativo acerca de uno de los derechos humanos más primordiales, como es el derecho a la identidad.",
+        "El Espacio aborda los derechos ciudadanos desde el concepto de integralidad y la multiplicidad de perspectivas, atento que contempla el embellecimiento del espacio público, la conformación de espacios que faciliten la recreación saludable, el esparcimiento, la reflexión compartida y el acceso a información fundamental para la construcción colectiva de una ciudadanía comprometida con los valores democráticos.",
+        "Todo bajo el abrigo de un “lugar de memoria”, en el que un contador de nietos recuperados actúa como recordatorio de las heridas de la historia reciente que permanecen abiertas y al mismo tiempo modelo a seguir para sanar esas heridas desde la justicia y la convivencia.\nhttps://youtu.be/QNs8_bP-i60",
+        "Si tenés dudas sobre tu identidad, comunicate con las Abuelas al mail: dudas@abuelas.org.ar"
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/f397922c9637-chica.webp",
+          "grande": "datos/recorridos/fotos/f397922c9637-grande.webp",
+          "ancho": 957,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Py4En7AXryQPzisF_QnODFg1Zxz4h3zMWWBaorhvurqK6tsnIs94E3WStmcO9Tbiv8VCCgLICGaOD4AN6YDy0DeAjn9iqtHtL5Jl-eyEFESOdwbvNzkD1Es43h-VYPkYaOjHvRCL227iM5-Wveb1r3Fue_T52qOA0TqLENpgcKc8wbx3bQgJfWqgWxhhIJ209ffkNX0caX24obonIY6nBC3FYvw9mAarkYQ0nkLkqsjBjnqyVa0CaxPE"
+        },
+        {
+          "chica": "datos/recorridos/fotos/e63bf44dae13-chica.webp",
+          "grande": "datos/recorridos/fotos/e63bf44dae13-grande.webp",
+          "ancho": 951,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7cCzf1fFgQVazSNNEZ-LuElvJPVNWV5eGivlofZh7Dqur5xj2HX2QONrum1hoORXWyUNvc4vqgJR3ksSBvbLg6li3enpqLhP6_4mjGqKGf1z1Wl4VGt5jpJMdV-eLSYtEFn16w2-_TRKK9QtPindPwZghkjtOVQwFCU0w3W5O-ffjHJuS83rImNYxn-dlnRf_aUwVi04zSbysoMjCe1sYMfQPYEMIJXKdYWY8Y7Wz_3b0YFsB_69MUdfw"
+        },
+        {
+          "chica": "datos/recorridos/fotos/e0967f0036c2-chica.webp",
+          "grande": "datos/recorridos/fotos/e0967f0036c2-grande.webp",
+          "ancho": 867,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4rLbqhwhRb6U-w6CvltpXRu0Lto8o_60qawmU27cPK0ZtPMmtF79DTUoafsuDClvivRkImh9GpQZAltc5oXyL904g4z0swNm3Ybw4PQx93pV8Xcblk1PmdZEuuzEE535-fEzLvsYMHcJFHszD7wfUTQCi5ZcgV7qfZ1PvrfO9MqSMgItAom7ob_D388ESf5TWtkdYsWHnoETToTvOszDgmXxP6daVBls4UhinpUmydyKo6fRV1HamXfP8"
+        },
+        {
+          "chica": "datos/recorridos/fotos/a4c38a0ec65d-chica.webp",
+          "grande": "datos/recorridos/fotos/a4c38a0ec65d-grande.webp",
+          "ancho": 956,
+          "alto": 635,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR53wbfqLJwEUr_ZY_3vpFiGDiCFD7IMrdOvnn7KS64nXnHelwpGI0AD4DeC3jfryotx-GVGTVqmOp0Iva0s1DCi-j43a3Mq4-1Bylzu-F2_i_tkZaktD6ZE8h7FhkosOErykryLbiFvrxeplmXgKc3MVp94yFuoa_hCfvLfebVDiI7_GRpOd-CFv4TQDzfetorP1fiPGdjlLtEr9-logoPnf9UPduLD-V70iIX1TP9yKTvkv6ic3yi-i4U"
+        },
+        {
+          "chica": "datos/recorridos/fotos/c06d71edf654-chica.webp",
+          "grande": "datos/recorridos/fotos/c06d71edf654-grande.webp",
+          "ancho": 960,
+          "alto": 638,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5dg4cQT3V1i7pRredtMmFUFyjhjdF5n0qNm3rVkMqLRMha9_ZNWtYLU0fg_WIRHERM1YWQL8dkyxMuuNdBG6NWDP_igxykQ5kwO8FVaR3UTPrdJiI1ZBXA861ckHLO6ixLeLqjf3Ha0Y9DvuxQfKQVOcmjAUL-Y4te4xPm9rO92k0Nhvw_3cuJg0IdBvrPhjPSRVnVgjo-kscnuZpjZuaVRc59BUSXancifX51VEKYJY64XQq50jrCSH0"
+        },
+        {
+          "chica": "datos/recorridos/fotos/87aa41cf40a7-chica.webp",
+          "grande": "datos/recorridos/fotos/87aa41cf40a7-grande.webp",
+          "ancho": 960,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Lb14KmgLM-M3lh6KJeseBbfCJkUu25dWySkib6J9TOdA2CXnZrybXpmcdT2cL9lkT4LHHXUwlMaRbQyj1MZMdxl6wah-H1zCvYuyA4omRrA1wCi1xzUFuEOGvnUmSDrGb0ZdphgtXUHWDwvunUDOBTeCt4QZjy_azyES3rx4RdFaNR-CflFz09DwkeQEHk37Js_3sRu6xaBjzEzTYCBlDQXJA0XAJQI2ANLs8SAZ2Ba2_qU_v4_spy0M"
+        }
+      ]
+    }
+  ]
+}

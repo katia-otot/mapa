@@ -1,0 +1,437 @@
+/* Página del recorrido guiado. Usa las variables de style.css */
+
+.recorrido-page {
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ---------- Barra superior ---------- */
+
+.rec-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  background-color: var(--night);
+  color: var(--white);
+  z-index: 2;
+}
+
+.rec-bar-btn {
+  flex-shrink: 0;
+  padding: 0.4rem 0.7rem;
+  border-color: rgba(251, 250, 247, 0.4);
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.rec-bar-btn:hover {
+  background: var(--white);
+  color: var(--ink);
+}
+
+.rec-bar-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.rec-bar-kicker {
+  font-family: var(--font-type);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(251, 250, 247, 0.6);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rec-bar-heading {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rec-hide-mobile {
+  display: none;
+}
+
+/* ---------- Mapa y panel ---------- */
+
+.rec-main {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.rec-map {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--paper-dark);
+}
+
+.rec-map-message {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-family: var(--font-type);
+  color: var(--ink-soft);
+}
+
+.rec-panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 52%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1.1rem 1.1rem 1.4rem;
+  background: var(--paper-card);
+  border-top: 1px solid var(--rule-strong);
+  box-shadow: 0 -10px 30px rgba(27, 26, 24, 0.18);
+  z-index: 1;
+}
+
+.rec-panel > * {
+  animation: fade-in 0.6s var(--ease) both;
+}
+
+.rec-panel--quieto > * {
+  animation: none;
+}
+
+.rec-kicker {
+  font-family: var(--font-type);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.rec-title {
+  margin-top: 0.35rem;
+  font-weight: 600;
+  font-size: clamp(1.3rem, 4.5vw, 1.7rem);
+  line-height: 1.2;
+}
+
+.rec-address {
+  margin-top: 0.3rem;
+  font-family: var(--font-type);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.rec-progress {
+  height: 3px;
+  margin-top: 0.75rem;
+  background: var(--rule);
+}
+
+.rec-progress span {
+  display: block;
+  height: 100%;
+  background: var(--ink);
+  transition: width 0.6s var(--ease);
+}
+
+.rec-text {
+  margin-top: 1rem;
+}
+
+.rec-text p {
+  margin-bottom: 0.9rem;
+  white-space: pre-line;
+}
+
+.rec-empty {
+  margin-top: 1rem;
+  font-family: var(--font-type);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.rec-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+}
+
+.rec-temas-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--font-type);
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.rec-temas-link:hover {
+  color: var(--ink);
+}
+
+.rec-actions .btn-ghost,
+.btn-primary {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-type);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s var(--ease), color 0.3s var(--ease);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+.rec-stops {
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--rule);
+}
+
+.rec-stops button {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.7rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.rec-stops button:hover {
+  color: var(--stamp);
+}
+
+.rec-stops-num {
+  flex-shrink: 0;
+  width: 1.6rem;
+  font-family: var(--font-type);
+  font-size: 0.85rem;
+  color: var(--stamp);
+}
+
+/* ---------- Galería de fotos ---------- */
+
+.rec-gallery {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem -1.1rem 0;
+  padding: 0 1.1rem 0.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.rec-gallery button {
+  flex-shrink: 0;
+  padding: 0;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper-dark);
+  cursor: zoom-in;
+  scroll-snap-align: start;
+}
+
+.rec-gallery img {
+  display: block;
+  height: 170px;
+  width: auto;
+  max-width: 80vw;
+  object-fit: cover;
+}
+
+.rec-gallery--single img {
+  height: 220px;
+}
+
+/* ---------- Marcadores ---------- */
+
+.rec-marker {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--white);
+  box-shadow: 0 2px 8px rgba(27, 26, 24, 0.35);
+  cursor: pointer;
+  transition: transform 0.4s var(--ease), border-color 0.4s var(--ease);
+}
+
+.rec-marker svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: var(--ink);
+}
+
+.rec-marker-num {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--white);
+  font-family: var(--font-type);
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+.rec-marker--partida {
+  width: 22px;
+  height: 22px;
+  background: var(--ink);
+  border-color: var(--white);
+}
+
+.rec-marker.is-active {
+  transform: scale(1.2);
+  border-color: var(--stamp);
+}
+
+.rec-marker.is-active .rec-marker-num {
+  background: var(--stamp);
+}
+
+/* ---------- Foto ampliada ---------- */
+
+.lightbox {
+  max-width: min(96vw, 1100px);
+  max-height: 94vh;
+  padding: 0.75rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper-card);
+  color: var(--ink);
+}
+
+.lightbox::backdrop {
+  background: rgba(21, 20, 19, 0.85);
+}
+
+.lightbox img {
+  display: block;
+  max-width: 100%;
+  max-height: 72vh;
+  margin: 0 auto;
+}
+
+.lightbox-caption {
+  margin-top: 0.6rem;
+  font-family: var(--font-type);
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.lightbox-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.lightbox-actions .btn-ghost:disabled {
+  opacity: 0.3;
+  cursor: default;
+  background: transparent;
+  color: var(--ink);
+}
+
+/* ---------- Mapa: controles de MapLibre ---------- */
+
+.maplibregl-ctrl-group {
+  border-radius: 0;
+  box-shadow: 2px 3px 0 var(--rule);
+}
+
+.maplibregl-ctrl-attrib {
+  font-family: var(--font-type);
+  font-size: 0.65rem;
+}
+
+/* ---------- Pantallas grandes ---------- */
+
+@media (min-width: 900px) {
+  .rec-hide-mobile {
+    display: inline;
+  }
+
+  .rec-bar {
+    padding: 0.75rem 1.5rem;
+  }
+
+  .rec-bar-heading {
+    font-size: 1.35rem;
+  }
+
+  .rec-main {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+  }
+
+  .rec-map {
+    position: relative;
+    inset: auto;
+  }
+
+  .rec-panel {
+    position: relative;
+    max-height: none;
+    height: 100%;
+    padding: 1.75rem;
+    border-top: 0;
+    border-left: 1px solid var(--rule-strong);
+    box-shadow: none;
+  }
+
+  .rec-gallery {
+    margin: 1rem -1.75rem 0;
+    padding: 0 1.75rem 0.25rem;
+  }
+
+  .rec-gallery img {
+    max-width: 340px;
+  }
+}

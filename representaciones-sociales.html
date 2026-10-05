@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Representaciones Sociales - Mapa Local por la Memoria</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Representaciones Sociales - Mapa Local por la Memoria</title>
+  <meta name="theme-color" content="#151413">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="style.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8M7XSD0QGC"></script>
   <script>
@@ -15,57 +19,63 @@
     gtag('config', 'G-8M7XSD0QGC');
   </script>
 </head>
-<body class="bg-light">
-  <div class="container-xl py-4 d-flex flex-column align-items-center">
-    <h1 class="text-center mb-4 custom-title">REPRESENTACIONES SOCIALES</h1>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
 
-    <!-- Contenido principal -->
-    <div class="card w-100 mb-4 shadow-sm">
-      <div class="card-body text-center">
-        
-        <!-- Visor de Video -->
-        <div class="video-container mb-4" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe src="https://drive.google.com/file/d/1X1_WXg4LZsZkl9wGFmndCYfkUMpwq7hd/preview" 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-                  allow="autoplay"></iframe>
-        </div>
-        <!-- Folleto adicional -->
-        <h4 class="mt-5 mb-3 text-dark">Folleto Informativo</h4>
-        <div class="pdf-container" style="position: relative; padding-bottom: 100%; height: 0; overflow: hidden;">
-          <iframe src="https://drive.google.com/file/d/1X2b-zr9zOUxaGgBTqCUl151qYLWUyTNw/preview" 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-                  allow="autoplay"></iframe>
-        </div>
-        <!-- Visor de PDF -->
-        <h4 class="mt-5 mb-3 text-dark">Memorias y DDHH en territorio</h4>
-        <div class="pdf-container" style="position: relative; padding-bottom: 100%; height: 0; overflow: hidden;">
-          <iframe src="https://drive.google.com/file/d/1EDlBywSqLXAvHrBYkBgSQWQNhuO5p8D1/preview" 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-                  allow="autoplay"></iframe>
-        </div>
-        
-        
+  <header class="hero hero-compact">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Mapa Local por la Memoria</p>
+        <h1 class="hero-title">Representaciones <span>Sociales</span></h1>
       </div>
     </div>
+  </header>
 
-    <!-- Botón para volver -->
-    <div class="d-flex justify-content-center mt-3">
-      <a href="index.html?from=layers" class="btn btn-secondary w-100 w-md-50">Volver</a>
+  <main id="main" class="page">
+    <div class="step-head">
+      <a href="index.html?from=layers" class="btn-ghost">← Volver a los recorridos</a>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="text-center py-3">
+    <section class="media-block">
+      <div class="embed embed--video">
+        <iframe src="https://drive.google.com/file/d/1X1_WXg4LZsZkl9wGFmndCYfkUMpwq7hd/preview"
+                title="Video Representaciones Sociales"
+                allow="autoplay"></iframe>
+      </div>
+    </section>
+
+    <section class="media-block">
+      <h2 class="media-title">Folleto Informativo</h2>
+      <div class="embed embed--doc">
+        <iframe src="https://drive.google.com/file/d/1X2b-zr9zOUxaGgBTqCUl151qYLWUyTNw/preview"
+                title="Folleto Informativo"
+                allow="autoplay"></iframe>
+      </div>
+    </section>
+
+    <section class="media-block">
+      <h2 class="media-title">Memorias y DDHH en territorio</h2>
+      <div class="embed embed--doc">
+        <iframe src="https://drive.google.com/file/d/1EDlBywSqLXAvHrBYkBgSQWQNhuO5p8D1/preview"
+                title="Memorias y DDHH en territorio"
+                allow="autoplay"></iframe>
+      </div>
+    </section>
+
+    <div class="page-actions">
+      <a href="index.html?from=layers" class="btn-ghost">← Volver a los recorridos</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
     <div class="footer-content">
-      <p class="mb-0">
-        Desarrolladora Web: <a href="https://portafoliokatiagadea.netlify.app/" target="_blank">Katia Gadea;</a> 
-        Colaboradores: Iara Pereyra Alvarez, Nahuel Andres García, Maria Jose Acien, Evelyn Torres, Julieta Carceres, Fiorella Orfano | PSE de UNICEN Quequén
+      <p>
+        Desarrolladora Web: <a href="https://portafoliokatiagadea.netlify.app/" target="_blank" rel="noopener">Katia Gadea</a>
+      </p>
+      <p>
+        Colaboradores: Iara Pereyra Alvarez, Nahuel Andres García, Maria Jose Acien, Evelyn Torres, Julieta Carceres, Fiorella Orfano · PSE de UNICEN Quequén
       </p>
     </div>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-</html> 
+</html>

@@ -22,150 +22,164 @@ const mapUrls = {
     lugadesDeSecuestro: "https://www.google.com/maps/d/u/0/embed?mid=1Ps_fZ641AJdXe_NxGorjAMyyuUSscUE&ehbc=2E312F&noprof=1",
   },
 };
-// Nombres amigables para las categorías
-const categoryNames = {
-  murales: "Murales",
-  escuelas: "Escuelas exAlumnos",
-  abuelas: "Memoria de las Abuelas",
-  exCentroclandestinodeDetención: "Centro Clandestino de Detención",
-  lugadesDeSecuestro: "Lugares de Secuestro",
+// Cada tema abre recorrido.html?id=<origen>-<id>, con los datos de datos/recorridos/<origen>-<id>.json
+const routeIds = {
+  murales: "murales",
+  escuelas: "escuelas",
+  abuelas: "abuelas",
+  exCentroclandestinodeDetención: "ccd",
+  lugadesDeSecuestro: "secuestro",
 };
 // Referencias a elementos HTML
 const locationSelection = document.getElementById("location-selection");
 const layerSelection = document.getElementById("layer-selection");
 const layerButtonsContainer = document.getElementById("layer-buttons");
-const mapIframe = document.getElementById("map");
+const currentOriginLabel = document.getElementById("current-origin");
 const backButton = document.getElementById("back-button");
+const stepperItems = document.querySelectorAll(".stepper [data-step]");
+
+let activeLocation = null;
 
 // Asegurar que se muestre la pantalla correcta cuando se carga la página
 document.addEventListener('DOMContentLoaded', function() {
-  // Asegurarse de que el mapa esté oculto inicialmente
-  mapIframe.classList.add("d-none");
-  
   // Obtener la ubicación guardada en localStorage
   const lastLocation = localStorage.getItem('lastLocation');
-  
+
   // Verificar si venimos de la página de representaciones sociales
   const urlParams = new URLSearchParams(window.location.search);
-  
-  if (urlParams.get('from') === 'layers' && lastLocation) {
-    // Si venimos de representaciones sociales y hay una ubicación guardada
-    const locationButton = document.querySelector(`[data-location="${lastLocation}"]`);
-    if (locationButton) {
-      locationButton.classList.add('active');
-    }
+
+  if (lastLocation && mapUrls[lastLocation]) {
+    markActiveLocation(lastLocation);
     generateLayerButtons(lastLocation);
-    locationSelection.classList.add("d-none");
-    layerSelection.classList.remove("d-none");
-  } else if (lastLocation) {
-    // Si hay una ubicación guardada pero no venimos de representaciones sociales
-    // Marcar el botón de ubicación como activo
-    const locationButton = document.querySelector(`[data-location="${lastLocation}"]`);
-    if (locationButton) {
-      locationButton.classList.add('active');
-    }
-    generateLayerButtons(lastLocation);
-    locationSelection.classList.remove("d-none");
-    layerSelection.classList.add("d-none");
+  }
+
+  if (urlParams.get('from') === 'layers' && activeLocation) {
+    showLayerStep();
   } else {
-    // Si no hay ubicación guardada o es la primera vez, mostrar la selección de ubicación
-    locationSelection.classList.remove("d-none");
-    layerSelection.classList.add("d-none");
+    showLocationStep();
   }
 });
 
 // Manejo de clic en las ubicaciones
-document.querySelectorAll(".option").forEach(button => {
-  if (button.dataset.layer === "representaciones-sociales") {
-    button.addEventListener("click", () => {
-      // Guardar la ubicación actual antes de navegar
-      const activeLocationButton = document.querySelector('[data-location].active');
-      if (activeLocationButton) {
-        localStorage.setItem('lastLocation', activeLocationButton.dataset.location);
-      }
-      window.location.href = "representaciones-sociales.html";
-    });
-  } else if (button.dataset.location) {
-    button.addEventListener("click", () => {
-      // Remover clase active de todos los botones de ubicación
-      document.querySelectorAll('[data-location]').forEach(btn => {
-        btn.classList.remove('active');
-      });
-      // Agregar clase active al botón seleccionado
-      button.classList.add('active');
-      
-      const location = button.dataset.location;
-      generateLayerButtons(location);
-      locationSelection.classList.add("d-none");
-      layerSelection.classList.remove("d-none");
-    });
+document.querySelectorAll("[data-location]").forEach(button => {
+  button.addEventListener("click", () => {
+    const location = button.dataset.location;
+    markActiveLocation(location);
+    generateLayerButtons(location);
+    showLayerStep();
+  });
+});
+
+// Manejo de clic en las tarjetas de temas
+layerButtonsContainer.addEventListener("click", (event) => {
+  const card = event.target.closest(".choice-card");
+  if (!card) return;
+
+  // Guardar la ubicación actual para volver a los temas al regresar
+  if (activeLocation) {
+    localStorage.setItem('lastLocation', activeLocation);
   }
+
+  if (card.dataset.layer === "representaciones-sociales") {
+    window.location.href = "representaciones-sociales.html";
+    return;
+  }
+
+  window.location.href = `recorrido.html?id=${activeLocation}-${routeIds[card.dataset.category]}`;
 });
 
 // Manejo del botón "Volver"
 backButton.addEventListener("click", () => {
-  // Oculta la sección de capas y muestra la selección inicial
-  layerSelection.classList.add("d-none");
-  locationSelection.classList.remove("d-none");
-  // Limpia el iframe
-  mapIframe.src = "";
-  mapIframe.classList.add("d-none");
   // Eliminar la ubicación guardada
   localStorage.removeItem('lastLocation');
+  markActiveLocation(null);
+  showLocationStep();
 });
 
-// Generar botones de categorías dinámicamente
+function markActiveLocation(location) {
+  activeLocation = location;
+  document.querySelectorAll('[data-location]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.location === location);
+  });
+  currentOriginLabel.textContent = location ? locationNames[location] : "";
+}
+
+function showLocationStep() {
+  layerSelection.hidden = true;
+  revealSection(locationSelection);
+  updateStepper("origin");
+}
+
+function showLayerStep() {
+  locationSelection.hidden = true;
+  revealSection(layerSelection);
+  updateStepper("layer");
+}
+
+// Muestra una sección reiniciando la animación de entrada de sus tarjetas
+function revealSection(section) {
+  section.hidden = false;
+  section.classList.remove("is-entering");
+  void section.offsetWidth;
+  section.classList.add("is-entering");
+}
+
+function updateStepper(currentStep) {
+  const order = ["origin", "layer", "map"];
+  const currentIndex = order.indexOf(currentStep);
+  stepperItems.forEach(item => {
+    const index = order.indexOf(item.dataset.step);
+    item.classList.toggle("is-current", index === currentIndex);
+    item.classList.toggle("is-done", index < currentIndex);
+    if (index === currentIndex) {
+      item.setAttribute("aria-current", "step");
+    } else {
+      item.removeAttribute("aria-current");
+    }
+  });
+}
+
+function buildChoiceCard({ title, subtitle, icon, index, extraClass = "" }) {
+  const card = document.createElement("button");
+  card.type = "button";
+  card.className = `choice-card option ${extraClass}`.trim();
+  card.style.setProperty("--i", index);
+  card.innerHTML = `
+    <span class="choice-icon" aria-hidden="true"><svg viewBox="0 0 24 24">${icon}</svg></span>
+    <span class="choice-text">
+      <span class="choice-title">${title}</span>
+      ${subtitle ? `<span class="choice-sub">${subtitle}</span>` : ""}
+    </span>
+    <span class="choice-arrow" aria-hidden="true">→</span>
+  `;
+  return card;
+}
+
+// Generar tarjetas de temas dinámicamente
 function generateLayerButtons(location) {
-  // Mantener el botón de representaciones sociales
-  const representacionesButton = layerButtonsContainer.querySelector('[data-layer="representaciones-sociales"]');
   layerButtonsContainer.innerHTML = "";
-  
-  // Restaurar el botón de representaciones sociales
-  if (representacionesButton) {
-    layerButtonsContainer.appendChild(representacionesButton);
-  }
 
   // Obtiene las categorías para la ubicación seleccionada
   const categories = mapUrls[location];
-  for (const [category, url] of Object.entries(categories)) {
-    const button = document.createElement("button");
-    button.textContent = categoryNames[category] || category;
-    // Agrega clases de estilo similar a los botones de ubicación
-    button.classList.add(
-      "btn", 
-      "btn-primary", 
-      "w-100", 
-      "w-md-75", 
-      "my-2", 
-      "option", 
-      "custom-option"
-    );
-    button.classList.add("btn", "option");
-    button.dataset.mapUrl = url;
-    layerButtonsContainer.appendChild(button);
-
-    // Evento para mostrar el mapa correspondiente
-    button.addEventListener("click", () => {
-      showMap(url);
+  let index = 0;
+  for (const category of Object.keys(categories)) {
+    const card = buildChoiceCard({
+      title: categoryNames[category] || category,
+      subtitle: "Ver el recorrido",
+      icon: categoryIcons[category] || categoryIcons.lugadesDeSecuestro,
+      index: index++,
     });
-  };
-}
+    card.dataset.category = category;
+    layerButtonsContainer.appendChild(card);
+  }
 
-// Mostrar el mapa seleccionado en el iframe
-function showMap(url) {
-  mapIframe.src = url;
-  mapIframe.classList.remove("d-none");
-  // Scroll to the map
-  mapIframe.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-// Manejo del enlace para olvidar la ubicación guardada
-const forgetLocationLink = document.getElementById('forget-location');
-if (forgetLocationLink) {
-  forgetLocationLink.addEventListener('click', function(e) {
-    e.preventDefault();
-    localStorage.removeItem('lastLocation');
-    // Recargar la página para mostrar la selección de ubicación
-    window.location.reload();
+  const representacionesCard = buildChoiceCard({
+    title: "Representaciones Sociales",
+    subtitle: "Video y material de lectura",
+    icon: categoryIcons.representaciones,
+    index: index,
+    extraClass: "choice-card--feature",
   });
+  representacionesCard.dataset.layer = "representaciones-sociales";
+  layerButtonsContainer.appendChild(representacionesCard);
 }

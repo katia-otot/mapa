@@ -1,0 +1,469 @@
+{
+  "id": "necochea-murales",
+  "titulo": "Murales desde Hospital",
+  "origen": "necochea",
+  "categoria": "murales",
+  "capa": "Indicaciones de Hospital Municipal Dr. Emilio Ferreyra, Necochea, Provincia de Buenos Aires a Avenida 58 2702, Necochea, Provincia de Buenos Aires",
+  "mapaOriginal": "https://www.google.com/maps/d/u/0/embed?mid=1250ovuPZKnEtUXbVBsk2IaaA07t3sSQ&ehbc=2E312F&noprof=1",
+  "ruta": [
+    [
+      -58.7609,
+      -38.53813
+    ],
+    [
+      -58.76078,
+      -38.53823
+    ],
+    [
+      -58.76037,
+      -38.53854
+    ],
+    [
+      -58.75989,
+      -38.53892
+    ],
+    [
+      -58.75883,
+      -38.53967
+    ],
+    [
+      -58.75882,
+      -38.53968
+    ],
+    [
+      -58.75788,
+      -38.54044
+    ],
+    [
+      -58.75788,
+      -38.54045
+    ],
+    [
+      -58.75694,
+      -38.54118
+    ],
+    [
+      -58.75661,
+      -38.54142
+    ],
+    [
+      -58.75644,
+      -38.54155
+    ],
+    [
+      -58.75594,
+      -38.54192
+    ],
+    [
+      -58.75494,
+      -38.54264
+    ],
+    [
+      -58.75404,
+      -38.5434
+    ],
+    [
+      -58.75309,
+      -38.54413
+    ],
+    [
+      -58.75308,
+      -38.54414
+    ],
+    [
+      -58.75212,
+      -38.54486
+    ],
+    [
+      -58.75193,
+      -38.54501
+    ],
+    [
+      -58.75114,
+      -38.54562
+    ],
+    [
+      -58.75018,
+      -38.54635
+    ],
+    [
+      -58.74922,
+      -38.54708
+    ],
+    [
+      -58.74826,
+      -38.54782
+    ],
+    [
+      -58.74726,
+      -38.54858
+    ],
+    [
+      -58.74628,
+      -38.54933
+    ],
+    [
+      -58.74723,
+      -38.55011
+    ],
+    [
+      -58.74817,
+      -38.55084
+    ],
+    [
+      -58.74906,
+      -38.55162
+    ],
+    [
+      -58.74812,
+      -38.55236
+    ],
+    [
+      -58.74717,
+      -38.55308
+    ],
+    [
+      -58.74643,
+      -38.55364
+    ],
+    [
+      -58.74619,
+      -38.55382
+    ],
+    [
+      -58.74524,
+      -38.55456
+    ],
+    [
+      -58.7462,
+      -38.55534
+    ],
+    [
+      -58.74715,
+      -38.5546
+    ],
+    [
+      -58.74713,
+      -38.55458
+    ],
+    [
+      -58.74683,
+      -38.55434
+    ],
+    [
+      -58.74619,
+      -38.55382
+    ],
+    [
+      -58.74524,
+      -38.55456
+    ],
+    [
+      -58.74427,
+      -38.55531
+    ],
+    [
+      -58.74331,
+      -38.55605
+    ],
+    [
+      -58.74251,
+      -38.55668
+    ],
+    [
+      -58.74235,
+      -38.5568
+    ],
+    [
+      -58.74211,
+      -38.55699
+    ],
+    [
+      -58.74119,
+      -38.55625
+    ],
+    [
+      -58.74024,
+      -38.55549
+    ],
+    [
+      -58.74023,
+      -38.55548
+    ],
+    [
+      -58.7394,
+      -38.55479
+    ],
+    [
+      -58.73937,
+      -38.5548
+    ],
+    [
+      -58.73933,
+      -38.5548
+    ],
+    [
+      -58.7393,
+      -38.55481
+    ],
+    [
+      -58.73926,
+      -38.55481
+    ],
+    [
+      -58.73923,
+      -38.5548
+    ],
+    [
+      -58.73919,
+      -38.5548
+    ],
+    [
+      -58.73916,
+      -38.55479
+    ],
+    [
+      -58.73913,
+      -38.55478
+    ],
+    [
+      -58.73909,
+      -38.55477
+    ],
+    [
+      -58.73906,
+      -38.55475
+    ],
+    [
+      -58.73903,
+      -38.55473
+    ],
+    [
+      -58.739,
+      -38.55471
+    ],
+    [
+      -58.73898,
+      -38.55468
+    ],
+    [
+      -58.73896,
+      -38.55466
+    ],
+    [
+      -58.73894,
+      -38.55463
+    ],
+    [
+      -58.73893,
+      -38.5546
+    ],
+    [
+      -58.73892,
+      -38.55456
+    ],
+    [
+      -58.73892,
+      -38.55454
+    ],
+    [
+      -58.73892,
+      -38.55452
+    ],
+    [
+      -58.73892,
+      -38.5545
+    ],
+    [
+      -58.73892,
+      -38.55448
+    ],
+    [
+      -58.73893,
+      -38.55446
+    ],
+    [
+      -58.73894,
+      -38.55444
+    ],
+    [
+      -58.73895,
+      -38.55442
+    ],
+    [
+      -58.73896,
+      -38.5544
+    ],
+    [
+      -58.7381,
+      -38.55377
+    ],
+    [
+      -58.73809,
+      -38.55377
+    ],
+    [
+      -58.73714,
+      -38.55302
+    ],
+    [
+      -58.73621,
+      -38.55225
+    ],
+    [
+      -58.73644,
+      -38.55207
+    ],
+    [
+      -58.73721,
+      -38.55271
+    ],
+    [
+      -58.73737,
+      -38.55284
+    ]
+  ],
+  "paradas": [
+    {
+      "nombre": "Hospital Municipal Dr. Emilio Ferreyra, Necochea, Provincia de Buenos Aires",
+      "direccion": "",
+      "coordenadas": [
+        -58.760902,
+        -38.538129
+      ],
+      "parrafos": [],
+      "fotos": []
+    },
+    {
+      "nombre": "Homenaje a José Riqueza",
+      "direccion": "Calle 65 3022, Necochea",
+      "coordenadas": [
+        -58.74643,
+        -38.553639
+      ],
+      "parrafos": [
+        "El día 27 de mayo del año 2017 en el local de la Agrupación José Riqueza, se instaló un mural en recuerdo y homenaje del militante necochense detenido desaparecido, integrante de la Federación Juvenil Comunista, José Juan \"Cuchu\" Riqueza. La realización del mismo estuvo a cargo del artista plástico local Hernán Ricaldoni. Con posterioridad, el día 9 de junio del año 2019, a 42 años de su secuestro y desaparición, los integrantes de la Federación Juvenil (FEDE) colocaron una placa conmemorativa."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/44deb7c166e9-chica.webp",
+          "grande": "datos/recorridos/fotos/44deb7c166e9-grande.webp",
+          "ancho": 564,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6fAThDXUas_2H49yKHb8rzzeAguXoILqqsRnl-2NNzwlSEd738_MSCCgLU-uoSdVObW7XGDGCe6XsMVd3-4cFcPiK62nY-bFDYd8Kmr9GWAJBBi8jEdPwqXp0VgLvs2212s63hinqt52bCKaHtB0biwQVhnYcTvg7cFjD3phDb5WT6LlJywKeekO8wRULpovoyXSYuv9M1PYslxvO7rSMKimJMNxxAsd6q4BwUBdl7CJz-MoDLztHKQFo"
+        },
+        {
+          "chica": "datos/recorridos/fotos/2d6843833810-chica.webp",
+          "grande": "datos/recorridos/fotos/2d6843833810-grande.webp",
+          "ancho": 481,
+          "alto": 635,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6LHe0yw5Wk58h4mZfGsdI2DC7JlrFmzC-t8K8ylX9odI54Y28ulebMkIvIy8GN5RQs_I6mWVjjz5HhnVGa-nFQzabRZwT83nqWO4M5WSjIfRCQ1VIIWeUPmesr_bHPWMuq6xzhdnBLsHvdPtGkCVVS4spuLYmDsXE0n_fR_uO1gOx1VkO5d6wBd-qoYzWqxu6lNdBU0cGN0dGVNHgPJKOS-7S3pAp4QsI9cgSBoAQ2FD0LSfCjuQUaiHA"
+        },
+        {
+          "chica": "datos/recorridos/fotos/b1d5ad5e74d8-chica.webp",
+          "grande": "datos/recorridos/fotos/b1d5ad5e74d8-grande.webp",
+          "ancho": 1044,
+          "alto": 638,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6-N5uFNx8ED5FhwlFriOalzxeRBltCclqe7cH-ALkhLbtu_LJkfb9bQVKDbEmnwNTVGeKD2ifkPhvVfg7V1wIm8vEaut_Mb-ymKvLcedCia0FxR438nqCKcsPw8TSqWL5mdem56mgtJ5_iBI8MaIGQgRhD2RLf5kP-77FoqMhRU4gLIzlAk9nYWYaT5Jku2H1ZuKyz5fCRWML1Q1nCoHhyM4Yg6_CrcKlJheNt4gChZnN7gPVJIADTmiY"
+        }
+      ]
+    },
+    {
+      "nombre": "Homenaje a Hebe Pastor de Bonafini Nieto N°132",
+      "direccion": "Calle 66 3299, Necochea",
+      "coordenadas": [
+        -58.747153,
+        -38.554599
+      ],
+      "parrafos": [
+        "Mural realizado el 12 de enero de 2023 por los artistas plásticos locales Sebastián Serqueira y Hernán Ricaldoni. En el mismo se rinde homenaje a la lucha de Hebe Pastor de Bonafini, a dos meses de su fallecimiento y se da bienvenida al nieto restituido N° 132.\nIniciativa y gestión a través de Red Puentes y el Colectivo por la Memoria local con la colaboración del CDR."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/dbcf629a1cab-chica.webp",
+          "grande": "datos/recorridos/fotos/dbcf629a1cab-grande.webp",
+          "ancho": 1043,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5nLJoZISswAOIPdeDtHGrYErYjHQTRGSWBuT4UJmNJjr37CQDarthODiUeRx40IaAiw2diNydJ_Ke7rFaNLoOHk9R5pQ-XgIzeQerOkoxp7t_jDrsIQg-OZuAzkGqM8ARW-CNrq1zjOvp2jMHaaK_vkN9d_80vS5z4nXipdZbfmgMAY70GD7BQG9Y4KkIrmZ5hDgWn17Rjnr9yHIu7cN1drzP-tQ1lgFEuQm9nI07dOKhP4E5y2_zYT5w"
+        }
+      ]
+    },
+    {
+      "nombre": "Noche de los Lápices",
+      "direccion": "Cens.Secundaria., Calle 57, Necochea",
+      "coordenadas": [
+        -58.738099,
+        -38.553769
+      ],
+      "parrafos": [
+        "Mural realizado en conmemoración de los/as estudiantes detenidos desaparecidos durante la Noche de los Lápices por el Movimiento de Artistas y Trabajadores del Espectáculo (M.A.T.E.) en el año 2008, restaurado por el Movimiento Evita en el año 2015."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/7fa58ccb7f6a-chica.webp",
+          "grande": "datos/recorridos/fotos/7fa58ccb7f6a-grande.webp",
+          "ancho": 1200,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Y9f5jb-KI0D1O582dkwiOlJxwZLAK5TuapLv1umFqTNwRydxnaMNiTdALdVdsZDw84Hy1sayDCJsvUgWevTl-8DJWwV_mnJxZfK3gWfBHX6yZWTKyjZ_O4LhAcwCezUS5QIclIarHtAj-YCf4W41MbqtQ4_tGLs3z1jO5TSdI0brnBQ_4qOlR9a9FV_39ZKNB19f3Y-_E-GWz6trqy9QkKH8Uf_aQ4xYK1zjoHA6rDanHZySGZcu4848"
+        }
+      ]
+    },
+    {
+      "nombre": "Plazoleta de la Juventud",
+      "direccion": "Avenida 58 2702, Necochea",
+      "coordenadas": [
+        -58.737374,
+        -38.552838
+      ],
+      "parrafos": [
+        "El 16 de septiembre de 2010 (Día Nacional de la Juventud) luego de la Jornada de la Juventud y DDHH organizada por el Colectivo Docente, se plantó en la plazoleta del boulevard de Av. 58 casi calle 57 un árbol en homenaje a los estudiantes desaparecidos durante la Noche de los Lápices.",
+        "Posteriormente, el 12 de noviembre de 2015, mediante la Ordenanza Nº 8643/15, el H.C.D. institucionalizó el nombre del espacio y estableció la colocación de una placa con el siguiente texto: “El pueblo de Necochea a la memoria de los militantes estudiantes desaparecidos durante la denominada Noche de los Lápices”.",
+        "El 30 de octubre de 2020, luego de un trabajo de puesta en valor de espacios públicos, con la colaboración de paisajistas locales, el Consorcio de Gestión de Puerto Quequén y La Usina Popular Cooperativa, el Municipio dejó oficialmente inaugurado el espacio tal cual lo vemos hoy."
+      ],
+      "fotos": [
+        {
+          "chica": "datos/recorridos/fotos/20f40622ae6c-chica.webp",
+          "grande": "datos/recorridos/fotos/20f40622ae6c-grande.webp",
+          "ancho": 1034,
+          "alto": 630,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7rR4jlTH0EfqnDBMg6_gkdAMCodlpfO3ODYnHaHxtdcTWaxDZWqFTHqJ9JGffBHDRfaEfj_sc6gZD0V28HSx2GtsnFS4j5vF2WT41gMDQ_il3BS_hA8xWYIgml16pAxuodN2cFJvsyGmJl3CZymiwOpk8NFgdALFaQbyDDbXSX8rkeZUDwEBkutNdZKmwJ3W7pTb9SFSRkEEQSAoGfuPnCVg_4Kwl6rhBrlzytT3HAfDsgqCe6qMSRD34"
+        },
+        {
+          "chica": "datos/recorridos/fotos/d8a03ca5dde7-chica.webp",
+          "grande": "datos/recorridos/fotos/d8a03ca5dde7-grande.webp",
+          "ancho": 730,
+          "alto": 539,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4cM4AB-1qdFfncjvk3_hUcbjXwc5pv6OncX1mNt0ezwAnF1KLDeQ1XlWh7_YENlUSVNj-kFW1CVTly89BeuDrKiZntTqCcKbveYsbnAiis5Q_epcrZWoeh4EKSnCsk7dZ8L4xwicdXXD7v9p6jjVD1Wlx52aKtpGpIVaRZMgLo-FRp3ZTWSw3wuxKC-13gkfOIPkubbNNj4WA8npx8dMM3-WqST_ynOIUjQc9kYHFPQv_BP0iE-FkBBas"
+        },
+        {
+          "chica": "datos/recorridos/fotos/6ebf9bcd8321-chica.webp",
+          "grande": "datos/recorridos/fotos/6ebf9bcd8321-grande.webp",
+          "ancho": 723,
+          "alto": 540,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Jjc8ZhN9XD0Nh779_5h4G9FKRwD2snffF4SL22f8xia76QXeYVa6rqTWPgrebJ-gp8Yov77VJ_iZQiSORLlsNM46UyEVSMgTbtr1Ay9stwEWrAjrEWA2KDQ-_1S3SjPiX3Z6Sd8EB7oWlhe2xDKrDqyz2EXqS8VF8hm0ans7H1waywQcnQJpRsczmsSdc9oUG_ZrXMNi9xZipue1mWmX57A8VN8YVyK-NtiK6vOLGcUll4GyHVJ_pC3g"
+        },
+        {
+          "chica": "datos/recorridos/fotos/3e43e66f028f-chica.webp",
+          "grande": "datos/recorridos/fotos/3e43e66f028f-grande.webp",
+          "ancho": 486,
+          "alto": 636,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6CtiqUf85IWKEU6NOhilH1-4mXyfL5uLuV-boQoC-wozOiFjiF_0jg4tkQScT5KKoyDj3a1qLH3vV8wNoFAfYDzY7h0SW_SfkixTYyfH3zbTD4G3JKQIyOcjBWv8zcns4NuVY0o4b5-36FB42WoRRmTxeifPPRH0iTQNqIShrg8gQjeJWzqK_x0ecFLOCFS4uKYOYxMYqO_OLelKV1zUiiYN2ip8KK95b3uOPhuijeNdqiDt1sTs2dOxs"
+        },
+        {
+          "chica": "datos/recorridos/fotos/9d7b76ff81cd-chica.webp",
+          "grande": "datos/recorridos/fotos/9d7b76ff81cd-grande.webp",
+          "ancho": 1027,
+          "alto": 633,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR52gpSQompZHWyFM_IMlRIbjMMDSrQjDiBV6tnyZEO1-s4u8imvGRV7wyM-yc3fhK1pTxnzKB8RJL0HHGTRFn7kiJQ0vVu6RZ0MJlGtkXzgEmSn5XFIgkqBLJ6E33GLsxH69FBCnjaL4gvc3FrB2lKQn5i4uaFj6WGdGWHyGgmHrapQUn0eZBUbKJjblx2uv7wLsrQnMm7s2m8-VPtc037LQ7rwD9vzJduiD9B3cVlLcy8C6xgyv-gRgFw"
+        },
+        {
+          "chica": "datos/recorridos/fotos/38c1568e8f61-chica.webp",
+          "grande": "datos/recorridos/fotos/38c1568e8f61-grande.webp",
+          "ancho": 969,
+          "alto": 637,
+          "original": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5h37WY9H11CQuICQ2Jyf95yXLIGIv-2CxZScZI7iaMySoPnN1lg53nKkeVoT0uJEp3X4SCRby35otYIZdRutNs-080xIgnvKaejjysdMsM2dbrC2r53WaUswkUXMZqI1QNT0UTK68oq0KH0Pj7HRl6-M1Gdc2_9nwG5sBLVW1lclzbkB6b8ZjwAQrdKZykc1iZ3pndCjHCKCDDR0zfIJmzem76BOZVz-_KzkuxXgCsNlpdTEEzvOjpxlU"
+        }
+      ]
+    }
+  ]
+}
